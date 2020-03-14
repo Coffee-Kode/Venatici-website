@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
 
-    var base_url = 'http://localhost/venatici/privado';
+    var base_url = 'http://localhost/venatici-website/admin';
 
     $("#btn_login").on("click", function (e) {
         e.preventDefault();

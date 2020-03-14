@@ -11,6 +11,8 @@
     <script src="https://kit.fontawesome.com/bdc9f861db.js" crossorigin="anonymous"></script>
 
     <title>Venatici Admin</title>
+    <link href="assets/images/favicon.png" rel="icon">
+    <link href="assets/images/favicon.png" rel="apple-touch-icon">
 
     <style>
         body {

@@ -6,12 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Venatici Privado</title>
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/favicon.png" rel="apple-touch-icon">
-  <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/custom/css/login.css">
+  <link href="assets/images/favicon.png" rel="icon">
+  <link href="assets/images/favicon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="assets/fonts/Karla-font/Karla.css">
+  <link rel="stylesheet" href="assets/lib/bootstrap-4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/login.css">
 </head>
 
 <body>
@@ -20,7 +19,7 @@
       <div class="row">
         <div class="col-sm-6 login-section-wrapper">
           <div class="brand-wrapper">
-            <!--<img src="assets/img/logo.png" alt="logo" class="logo">-->
+            <img src="assets/images/logo.png" alt="logo" class="logo">
           </div>
           <div class="login-wrapper my-auto">
             <h1 class="login-title">Portal Privado</h1>
@@ -44,10 +43,10 @@
       </div>
     </div>
   </main>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <script src="assets/custom/js/login.js"></script>
+  <script src="assets/lib/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+  <script src="assets/lib/popper-1.12.9/popper.min.js"></script>
+  <script src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+  <script src="assets/js/login.js"></script>
 </body>
 
 </html>
