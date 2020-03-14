@@ -14,7 +14,7 @@ class private_ctrl extends CI_Controller {
         if ($this->session->userdata("user")) {
             $this->load->view('private/autoadmin');
         } else {
-            redirect('private/login');
+            $this->load->view('private/login');
         }
 	}
 

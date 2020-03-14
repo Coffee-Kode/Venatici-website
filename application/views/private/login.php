@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/lib/login/css/login.css">
+  <link rel="stylesheet" href="assets/custom/css/login.css">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
       <div class="row">
         <div class="col-sm-6 login-section-wrapper">
           <div class="brand-wrapper">
-            <img src="assets/img/logo.png" alt="logo" class="logo">
+            <!--<img src="assets/img/logo.png" alt="logo" class="logo">-->
           </div>
           <div class="login-wrapper my-auto">
             <h1 class="login-title">Portal Privado</h1>
@@ -39,7 +39,7 @@
           </div>
         </div>
         <div class="col-sm-6 px-0 d-none d-sm-block">
-          <img src="assets/lib/login/images/login.jpg" alt="login image" class="login-img">
+          <img src="assets/images/login.jpg" alt="login image" class="login-img">
         </div>
       </div>
     </div>
