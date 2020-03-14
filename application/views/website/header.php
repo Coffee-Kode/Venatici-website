@@ -17,7 +17,7 @@
   <title>Venatici</title>
 </head>
 
-<body >
+<body>
   <div class="navbar-dark bg-dark sticky-top">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark container">
       <a class="navbar-brand" href="home">
@@ -43,7 +43,7 @@
             <a class="nav-link" href="#">Servicios</a>
           </li>
 
-         <!-- DropDown -->
+          <!-- DropDown -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -61,6 +61,6 @@
         </ul>
       </div>
     </nav>
-  </div>
+  </div>  
+  <main style="margin-bottom: 10%;">
   <!--NavBar-->
-  

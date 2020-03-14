@@ -1,14 +1,5 @@
 <!-- Footer -->
-
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum voluptatibus magni officia exercitationem animi
-    molestiae temporibus veniam dolores beatae, nobis dolorem, libero ex alias illum ducimus quo! Dolorum, hic
-    praesentium debitis veritatis sit labore impedit architecto cum error, amet laudantium vitae nesciunt vel eligendi
-    repellat voluptate officia obcaecati voluptas animi. Reprehenderit quaerat cum mollitia maxime et quibusdam
-    reiciendis debitis earum! Dolore iste, perspiciatis placeat rem esse vero facere quod laudantium libero reiciendis
-   
-
-</p>
-</div>
+</main>
 <footer class="bg-dark">
     <div class="container my-4">
         <div class="row">
@@ -47,6 +38,9 @@
 <script type="text/javascript" src="assets/lib/popper-1.12.9/popper.min.js"></script>
 <!-- Javascript -->
 <script type="text/javascript" src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+<!--  -->
+<script type="text/javascript" src="assets/js/home.js"></script>
+
 
 
 

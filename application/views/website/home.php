@@ -46,14 +46,7 @@
 
   <img src="assets/images/teamwork.jpg" class="img-fluid mb-4">
   <h2 class="display-4 text-center mb-4">Sobre nosotros</h2>
-  <p class="lead text-justify text-dark">Somos una compañía dedicada a contribuir en el desarrollo de
-    emprendimientos tempranos y empresas que necesitan lograr su consolidación en la industria, aportando con
-    servicios dedicados a las distintas etapas del ciclo de vida, comenzando con su constitución y formalización
-    hasta
-    la inteligencia comercial por medio de herramientas de marketing.
-    Para esto contamos con un equipo de profesionales capacitados para entregar un servicio óptimo y dedicado a
-    cada
-    uno de nuestros clientes, acompañándolos y resolviendo todas sus necesidades.
+  <p id="about_us" class="lead text-justify text-dark">
   </p>
 
   <hr class="my-4">
@@ -61,8 +54,7 @@
   <h2 class="display-4 text-center">Misión</h2>
   <div class="row mb-4">
     <div class="col-md-6">
-      <p class="lead text-justify text-dark">Contribuir al desarrollo empresarial y de emprendimiento a través de la
-        asesoría y soporte técnico que requieran para su crecimiento
+      <p id="mission" class="lead text-justify text-dark">
       </p>
 
     </div>
@@ -79,8 +71,7 @@
       <img src="assets/images/vision.jpg" class="img-about">
     </div>
     <div class="col-md-6">
-      <p class="lead text-justify text-dark">Queremos ser la mejor opción para aquellos emprendedores y empresarios
-        que necesitan una mejora en marketing y posicionamiento a nivel nacional
+      <p id="vision" class="lead text-justify text-dark">
       </p>
 
     </div>
@@ -88,6 +79,7 @@
   </div>
 
 </div>
+
 <hr class="my-5">
 <!-- About us-->
 
@@ -137,7 +129,7 @@
 
   </div>
 </div>
-</div>
+
 <!-- Service -->
 
 <!-- JumboTron -->
@@ -248,5 +240,5 @@
   <!-- Collapse -->
 
 
-  </section>
+</div>
   <!-- Section two -->
