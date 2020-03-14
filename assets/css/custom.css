@@ -1,0 +1,22 @@
+a:hover {
+  text-decoration: none;
+  color: aqua;
+}
+
+.img-about{
+  width: 100%;
+}
+
+.icon{
+  color: #4682b4;
+}
+
+.mc{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.mbc{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
