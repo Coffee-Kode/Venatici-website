@@ -12,6 +12,7 @@
 
   <link rel="stylesheet" href="assets/lib/bootstrap-4.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/lib/fontawesome-5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/develop_web.css">
 
 
   <title>Venatici</title>

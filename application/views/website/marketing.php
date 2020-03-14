@@ -1,65 +1,53 @@
 <h2 class="display-4 text-center mb-4">Marketing Digital</h2>
 <div class="container">
     <div class="row">
+
         <div class="col-md-4">
             <div class="card" style="width: 18rem;">
                 <div class="card-header">
-                  Featured
+                  Básico
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-                  <li class="list-group-item">Vestibulum at eros</li>
+                  <li class="list-group-item">Manejo de redes sociales</li>
+                  <li class="list-group-item">Publicaciones</li>
+                  <li class="list-group-item">Diseño Grafico</li>
                 </ul>
               </div>
         </div>
+
         <div class="col-md-4">
             <div class="card" style="width: 18rem;">
                 <div class="card-header">
-                  Featured
+                  Medio
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-                  <li class="list-group-item">Vestibulum at eros</li>
+                  <li class="list-group-item">Manejo de redes sociales</li>
+                  <li class="list-group-item">Publicaciones</li>
+                  <li class="list-group-item">Diseño Grafico</li>
+                  <li class="list-group-item">Google Ads</li>
+                  <li class="list-group-item">Fotografia</li>
+
                 </ul>
               </div>
         </div>
+
         <div class="col-md-4">
             <div class="card" style="width: 18rem;">
                 <div class="card-header">
-                  Featured
+                  Full
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-                  <li class="list-group-item">Vestibulum at eros</li>
+                  <li class="list-group-item">Manejo de redes sociales</li>
+                  <li class="list-group-item">Publicaciones</li>
+                  <li class="list-group-item">Diseño Grafico</li>
+                  <li class="list-group-item">Google Ads</li>
+                  <li class="list-group-item">Fotografia</li>
+                  <li class="list-group-item">Seo</li>
+                  <li class="list-group-item">Community Manager</li>
+
                 </ul>
               </div>
         </div>
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <div class="card-header">
-                  Featured
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-                  <li class="list-group-item">Vestibulum at eros</li>
-                </ul>
-              </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <div class="card-header">
-                  Featured
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-                  <li class="list-group-item">Vestibulum at eros</li>
-                </ul>
-              </div>
-        </div>
+        
     </div>
 </div>
