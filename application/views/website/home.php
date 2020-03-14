@@ -175,7 +175,7 @@
       <h4 class="service-heading">Inicio Emprende</h4>
       <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
         quo inventore harum ex magni, dicta impedit.</p>
-      <a class="btn btn-primary btn-sm mb-4" href="emprende.html">Saber más >></a>
+      <a class="btn btn-primary btn-sm mb-4" href="emprende">Saber más >></a>
 
     </div>
 
@@ -187,7 +187,7 @@
       <h4 class="service-heading">Marketing Digital</h4>
       <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
         quo inventore harum ex magni, dicta impedit.</p>
-      <a class="btn btn-primary btn-sm mb-4" href="marketing.html">Saber más >></a>
+      <a class="btn btn-primary btn-sm mb-4" href="marketing">Saber más >></a>
     </div>
 
 
@@ -199,7 +199,7 @@
       <h4 class="service-heading">Paginas Web</h4>
       <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto
         quo inventore harum ex magni, dicta impedit.</p>
-      <a class="btn btn-primary btn-sm mb-4" href="develop-web.html">Saber más >></a>
+      <a class="btn btn-primary btn-sm mb-4" href="develop_web">Saber más >></a>
 
     </div>
   </div>
