@@ -5,9 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
   <title>Venatici Privado</title>
   <link href="assets/images/favicon.png" rel="icon">
   <link href="assets/images/favicon.png" rel="apple-touch-icon">
+
   <link rel="stylesheet" href="assets/fonts/Karla-font/Karla.css">
   <link rel="stylesheet" href="assets/lib/bootstrap-4.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/login.css">
@@ -43,6 +45,7 @@
       </div>
     </div>
   </main>
+
   <script src="assets/lib/jquery-3.4.1/jquery-3.4.1.min.js"></script>
   <script src="assets/lib/popper-1.12.9/popper.min.js"></script>
   <script src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>

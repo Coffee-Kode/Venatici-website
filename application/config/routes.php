@@ -14,6 +14,12 @@ $route['admin'] = 'private_ctrl';
 
 // system routes
 $route['signin'] = 'private_ctrl/signin';
+$route['logout'] = 'private_ctrl/logout';
+
+// autoadmin routes
+$route['get_about'] = 'private_ctrl/get_about';
+$route['save_about'] = 'private_ctrl/save_about';
+
 
 //default routes
 $route['404_override'] = '';

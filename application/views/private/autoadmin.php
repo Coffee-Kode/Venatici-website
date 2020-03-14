@@ -2,53 +2,51 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/bdc9f861db.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Venatici Admin</title>
     <link href="assets/images/favicon.png" rel="icon">
     <link href="assets/images/favicon.png" rel="apple-touch-icon">
 
-    <style>
-        body {
-            background: #E0EAFC;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #CFDEF3, #E0EAFC);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-        }
-    </style>
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="assets/lib/bootswatch-lux/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/autoadmin.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Venatici admin</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
-            aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <!-- START NAVBAR -->
+    <div class="navbar-dark bg-dark sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="home">
+                <img src="assets/images/ic_venatici.jpg" width="30" height="30"
+                    class="d-inline-block align-top mr-2 rounded" alt="">
+                Venatici</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarColor02">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Salir</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout">Salir</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- END NAVBAR -->
+
+    <!-- START FORM AUTOADMIN -->
     <div class="container">
         <div class="jumbotron mt-4">
             <h1 class="display-5">Bienvenido a Venatici Admin</h1>
             <p class="lead">Administre la información de su sitio web desde los siguientes formularios:</p>
             <hr class="my-4">
             <div class="accordion" id="accordion">
+                <!-- START CARD INICIO -->                
                 <div class="card">
                     <div class="card-header" id="heading1">
                         <h2 class="mb-0">
@@ -64,6 +62,8 @@
                         </div>
                     </div>
                 </div>
+                <!-- END CARD INICIO -->
+                <!-- START CARD SOBRE NOSOTROS -->                
                 <div class="card">
                     <div class="card-header" id="heading2">
                         <h2 class="mb-0">
@@ -79,25 +79,27 @@
                                 <div class="form-group">
                                     <label for="about_us">Quienes somos</label>
                                     <textarea class="form-control" id="about_us"
-                                        rows="3">Somos una compañía dedicada a contribuir en el desarrollo de emprendimientos tempranos y empresas que necesitan lograr su consolidación en la industria, aportando con servicios dedicados a las distintas etapas del ciclo de vida, comenzando con su constitución y formalización hasta la inteligencia comercial por medio de herramientas de marketing. Para esto contamos con un equipo de profesionales capacitados para entregar un servicio óptimo y dedicado a cada uno de nuestros clientes, acompañándolos y resolviendo todas sus necesidades.</textarea>
+                                        rows="3"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <label for="mission">Misión</label>
                                     <textarea class="form-control" id="mission"
-                                        rows="3">Contribuir al desarrollo empresarial y de emprendimiento a través de la asesoría y soporte técnico  que requieran para su crecimiento  </textarea>
+                                        rows="3"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <label for="vision">Visión</label>
                                     <textarea class="form-control" id="vision"
-                                        rows="3">Queremos ser la mejor opción para aquellos emprendedores y empresarios que necesitan una mejora en marketing y posicionamiento a nivel nacional</textarea>
+                                        rows="3"></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <button type="button" class="btn btn-success float-right mb-4">Guardar</button>
+                                    <button type="button" id="btn_about" class="btn btn-success float-right mb-4">Guardar</button>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
+                <!-- END CARD SOBRE NOSOTROS -->
+                <!-- START CARD SERVICIOS: INICIO EMPRENDE -->                
                 <div class="card">
                     <div class="card-header" id="heading3">
                         <h2 class="mb-0">
@@ -196,6 +198,8 @@
                         </div>
                     </div>
                 </div>
+                <!-- END CARD SERVICIOS: INICIO EMPRENDE -->
+                <!-- START CARD SERVICIOS: MARKETING -->                
                 <div class="card">
                     <div class="card-header" id="heading4">
                         <h2 class="mb-0">
@@ -211,6 +215,8 @@
                         </div>
                     </div>
                 </div>
+                <!-- END CARD SERVICIOS: MARKETING -->
+                <!-- START CARD SERVICIOS: PAGINAS WEB -->                
                 <div class="card">
                     <div class="card-header" id="heading5">
                         <h2 class="mb-0">
@@ -226,20 +232,17 @@
                         </div>
                     </div>
                 </div>
+                <!-- END CARD SERVICIOS: PAGINAS WEB -->
             </div>
         </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <!-- END FORM AUTOADMIN -->
+
+    <!-- JS Dependencies -->
+    <script src="assets/lib/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+    <script src="assets/lib/popper-1.12.9/popper.min.js"></script>
+    <script src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/autoadmin.js"></script>
 </body>
 
 </html>
