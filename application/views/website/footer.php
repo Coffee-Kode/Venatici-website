@@ -13,21 +13,21 @@
     <div class="container my-4">
         <div class="row">
             <div class="col-md-4">
-                <a class="text-white" >
+                <h3 class="text-white text-v" >
                     <img src="assets/images/ic_venatici.jpg" width="30" height="30" class="d-inline-block align-top mr-2 rounded"
-                      alt=""> Venatici</a>
+                      alt=""> Venatici</h3>
             </div>
             <div class="col-md-4 footer-contact wow fadeInDown animated text-white" style="visibility: visible; animation-name: fadeInDown;">
-                <h3>Contact</h3>
-                <p><i class="fas fa-map-marker-alt"></i> Via Rossini 10, 10136 Turin Italy</p>
-                <p><i class="fas fa-phone"></i> Telefono: (0039) 333 12 68 347</p>
-                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:hello@domain.com">hello@domain.com</a></p>
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i>  Talca</p>
+                <p><i class="fas fa-phone"></i>  Telefono: +56973586517</p>
+                <p><i class="fas fa-envelope"></i>  Email: <a href="mailto:hello@domain.com" class="text-decoration-none">hello@domain.com</a></p>  
             </div>
             <div class="col-md-4 footer-social wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-                <h3>Follow us</h3>
+                <h3 class="text-white">Siguenos en</h3>
                 <p>
-                    <a href="https://www.facebook.com/venatici/"><i class="fab fa-facebook"></i></a> 
-                    <a href="https://www.instagram.com/venaticiasesorias/?hl=es-la"><i class="fab fa-instagram"></i></a> 
+                    <a href="https://www.facebook.com/venatici/" target="_blank"><i   class="fab fa-facebook-square fa-2x icon "></i></a> 
+                    <a href="https://www.instagram.com/venaticiasesorias/?hl=es-la" target="_blank"><i class="fab fa-instagram fa-2x icon"></i></a> 
 
                 </p>
             </div>
