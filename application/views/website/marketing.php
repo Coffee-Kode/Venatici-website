@@ -4,7 +4,7 @@
 
         <div class="col-md-4">
             <div class="card" style="width: 18rem;">
-                <div class="card-header iconos">
+                <div class="card-header">
                   Básico
                 </div>
                 <ul class="list-group list-group-flush">
