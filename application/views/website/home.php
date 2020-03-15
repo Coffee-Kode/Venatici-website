@@ -45,7 +45,7 @@
 <div class="container my-4">
 
   <img src="assets/images/teamwork.jpg" class="img-fluid mb-4">
-  <h2 class="display-4 text-center mb-4">Sobre nosotros</h2>
+  <h1 class="display-4 text-center mb-4">Sobre nosotros</h1>
   <p id="about_us" class="lead text-justify text-dark">
   </p>
 

@@ -6,16 +6,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/home.css">
   <link rel="stylesheet" href="assets/css/footer.css">
-
+<!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/lib/bootstrap-4.4.1/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
   <link rel="stylesheet" href="assets/lib/fontawesome-5.12.1/css/all.min.css">
   <link rel="stylesheet" href="assets/css/develop_web.css">
 
-
   <title>Venatici</title>
+
+
 </head>
 
 <body>

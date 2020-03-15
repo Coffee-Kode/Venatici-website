@@ -1,3 +1,4 @@
+
 <!-- Footer -->
 </main>
 <footer class="bg-dark">
@@ -12,7 +13,7 @@
                 <h3>Contacto</h3>
                 <p><i class="fas fa-map-marker-alt"></i>  Talca</p>
                 <p><i class="fas fa-phone"></i>  Telefono: +56973586517</p>
-                <p><i class="fas fa-envelope"></i>  Email: <a href="mailto:hello@domain.com" class="text-decoration-none">hello@domain.com</a></p>  
+                <p><i class="fas fa-envelope"></i>  Email: <a href="mailto:venatici.asesorias@gmail.com" >venatici.asesorias@gmail.com</a></p>  
             </div>
             <div class="col-md-4 footer-social wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
                 <h3 class="text-white">Siguenos en</h3>

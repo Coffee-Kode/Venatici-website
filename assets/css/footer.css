@@ -18,3 +18,11 @@ body {
   .text-v{
     vertical-align: middle;
   }
+
+  .link-txt{
+    color: black;
+    text-decoration: none;
+  }
+  .link-txt{
+    font-weight: bold;
+  }
