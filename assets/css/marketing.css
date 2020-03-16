@@ -27,13 +27,13 @@
 .price-head h3{
     color: #fff;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: normal;
     margin-bottom: 5px;
     text-transform: uppercase;
 }
 .price-head p{
     font-size: 25px;
-    color: #ccc;
+    color: #fff;
     font-weight: bold;
     line-height: 30px;
 }

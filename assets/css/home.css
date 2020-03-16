@@ -22,11 +22,21 @@
   margin-top: 20px;
 }
 
+#section_about_us{
+  padding: 55px 0 55px 0;
+}
+
+#section_services{
+  padding: 90px 0 90px 0;
+}
 
 .char{
   animation: an 1s ease-out 1 both;
   display: inline-block;
 }
+
+
+
 
 @keyframes an{
   from{

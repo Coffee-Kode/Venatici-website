@@ -1,10 +1,10 @@
 <!-- Start Carousel-->
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="section_carousel" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#section_carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#section_carousel" data-slide-to="1"></li>
+    <li data-target="#section_carousel" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -29,29 +29,27 @@
     </div>
   </div>
 
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#section_carousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Anterior</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#section_carousel" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Siguiente</span>
   </a>
 </div>
-
 <!-- finish Carousel-->
 
 <!-- start About us-->
-<div class="container my-4">
+<div id="section_about_us"class="container">
 
-  <img src="assets/images/teamwork.jpg" class="img-fluid mb-4">
-  <h1 class="display-4 text-center mb-4">Sobre nosotros</h1>
-  <p id="about_us" class="lead text-justify text-dark">
-  </p>
+  <img src="assets/images/teamwork.jpg" class="img-fluid mb-3">
+  <h1 id="title_about_us" class="display-4 text-center mb-4">Sobre nosotros</h1>
+  <p id="about_us" class="lead text-justify text-dark"></p>
 
-  <hr class="my-4">
+  <hr class="my-2">
 
-  <h2 class="display-4 text-center">Misión</h2>
+  <h2 id="title_mission" class="display-4 text-center">Misión</h2>
   <div class="row mb-4">
     <div class="col-md-6">
       <p id="mission" class="lead text-justify text-dark">
@@ -64,7 +62,7 @@
   </div>
   <hr class="my-4">
 
-  <h2 class="display-4 text-center mb-4">Visión</h2>
+  <h2 id="title_vision"class="display-4 text-center mb-4">Visión</h2>
 
   <div class="row mb-4">
     <div class="col-md-6">
@@ -80,18 +78,18 @@
 
 </div>
 
-<hr class="mt-5 mb-4">
+<hr>
 <!-- finish About us-->
 
 <!-- Services -->
-<div class="container">
+<div id="section_services" class="container">
 
   <div class="text-center">
-    <h2 class="display-4 text-center mb-4">Nuestros Servicios</h2>
+    <h2 id="title_services" class="display-4 text-center mb-4">Nuestros Servicios</h2>
 
   </div>
 
-  <div class="row text-center">
+  <div class="row text-center mt-5">
     <div class="col-md-4">
       <span class="fa-stack fa-4x mb-2">
         <i class="fas fa-circle fa-stack-2x color_icon"></i>

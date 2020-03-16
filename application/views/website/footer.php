@@ -44,6 +44,9 @@
 <!--  -->
 <script type="text/javascript" src="assets/js/home.js"></script>
 
+<script type="text/javascript" src="assets/js/effect-navbar.js"></script>
+<script type="text/javascript" src="assets/js/effect-text.js"></script>
+
 
 
 

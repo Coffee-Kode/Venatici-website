@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="assets/css/footer.css">
   <link rel="stylesheet" href="assets/css/develop_web.css">
   <link rel="stylesheet" href="assets/css/marketing.css">
+  <link rel="stylesheet" href="assets/css/header.css">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/lib/bootstrap-4.4.1/css/bootstrap.min.css">
@@ -26,11 +27,11 @@
 </head>
 
 <body>
-  <div class="navbar-dark bg-dark sticky-top">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark container">
-      <a class="navbar-brand" href="home">
+ 
+    <nav  class="navbar navbar-expand-md my-navbar px-5 sticky-top">
+      <a class="navbar-brand text-white ml-5" href="home">
         <img src="assets/images/ic_venatici.jpg" width="30" height="30" class="d-inline-block align-top mr-2 rounded"
-          alt="">
+          alt="" href="home">
         Venatici</a>
 
     <!--Start NavBar-->
@@ -39,20 +40,21 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse mr-5 pb-2" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link iconos" href="home">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link iconos" href="#section_carousel">Inicio <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sobre nosotros</a>
+            <a class="nav-link" href="#section_about_us">Sobre nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Servicios</a>
+            <a class="nav-link" href="#section_services">Servicios</a>
           </li>
         </ul>
       </div>
+      
     </nav>
-  </div>
+ 
   <main style="margin-bottom: 10%;">
     <!-- Finish NavBar-->
