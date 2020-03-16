@@ -13,7 +13,7 @@
                 <h3>Contacto</h3>
                 <p><i class="fas fa-map-marker-alt"></i>  Talca</p>
                 <p><i class="fas fa-phone"></i>  Telefono: +56973586517</p>
-                <p><i class="fas fa-envelope"></i>  Email: <a href="mailto:venatici.asesorias@gmail.com" >venatici.asesorias@gmail.com</a></p>  
+                <p><i class="fas fa-envelope"></i>  Email: <a href="mailto:venatici.asesorias@gmail.com" class="txt-link" >venatici.asesorias@gmail.com</a></p>  
             </div>
             <div class="col-md-4 footer-social wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
                 <h3 class="text-white">Siguenos en</h3>
@@ -39,6 +39,8 @@
 <script type="text/javascript" src="assets/lib/popper-1.12.9/popper.min.js"></script>
 <!-- Javascript -->
 <script type="text/javascript" src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="assets/js/custom-home.js"></script>
 <!--  -->
 <script type="text/javascript" src="assets/js/home.js"></script>
 

@@ -19,10 +19,12 @@ body {
     vertical-align: middle;
   }
 
-  .link-txt{
-    color: black;
+  .txt-link{
+    color: white;
     text-decoration: none;
   }
-  .link-txt{
+  .txt-link:hover{
     font-weight: bold;
+    color: white;
+    text-decoration: none;
   }
