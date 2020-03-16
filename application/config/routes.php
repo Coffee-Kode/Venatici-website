@@ -20,7 +20,6 @@ $route['logout'] = 'private_ctrl/logout';
 $route['get_about'] = 'private_ctrl/get_about';
 $route['save_about'] = 'private_ctrl/save_about';
 
-
 //default routes
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
