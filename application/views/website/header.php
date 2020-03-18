@@ -9,13 +9,13 @@
   <title>Venatici</title>
 
   <!-- MDB icon -->
-  <link rel="icon" href="assets/lib/MDB-Free-4.14.1/img/mdb-favicon.ico" type="image/x-icon">
+  <link rel="icon" href="../assets/css/favicon.png" type="image/x-icon">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="assets/lib/fontawesome-5.12.1/css/all.css">
 
   <!-- Google Fonts Roboto -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link rel="stylesheet" href="assets/lib/MDB-Free-4.14.1/fonts/Roboto-Regular.ttf">
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="assets/lib/MDB-Free-4/css/bootstrap.min.css">
@@ -59,10 +59,9 @@
     }
     section{
       width: 100%;
-      height: 100vh;
       scroll-behavior: smooth;
-
     }
+
   </style>
 
 </head>
@@ -74,7 +73,7 @@
     <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+      <a class="navbar-brand" href="#home" target="_blank">
         <strong>Venatici</strong>
       </a>
 
@@ -90,7 +89,7 @@
         <!-- Left -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio
+            <a class="nav-link" href="#home">Inicio
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -102,6 +101,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#section-services">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-contact">Contacto</a>
           </li>
         </ul>
       </div>

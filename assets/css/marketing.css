@@ -6,8 +6,7 @@
 .single-price{
     margin:10px auto;
     display: inline;
-    float: left;
-    width: 100%;
+
     background-color: #fff;
     transition: 0.5s;
 }
@@ -18,10 +17,9 @@
 .price-head{
     background-color: #2196f3;
     display: inline;
-    float: left;
+
     padding: 10px 5px;
     text-align: center;
-    width: 100%;
 }
 
 .price-head h3{
@@ -42,7 +40,6 @@
 }
 .price-content{
     display:inline;
-    width: 100%;
     padding: 0 15px;
 
 }

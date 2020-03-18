@@ -1,5 +1,5 @@
 <!-- Full Page Intro -->
-<div class="view full-page-intro bg-img">
+<div id="home" class="view full-page-intro bg-img">
     <!-- Mask & flexbox options-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
 
@@ -16,9 +16,7 @@
 
                     <hr class="hr-light">
 
-                    <p>
-                        <strong>Asesorias y Marketing Digital</strong>
-                    </p>
+                    <p><strong>Asesoría Comercial y Publicidad</strong></p>
 
                 </div>
                 <!--Grid column-->
@@ -38,11 +36,10 @@
 <!--Main layout-->
 <main>
     <div class="container">
-
         <!-- Start Section: About Us -->
         <section id="section-about-us">
-            <h2 id="title_services" class="h2 display-4 text-center my-5">Sobre nosotros</h2>
 
+            <h2 id="title_about_us" class="h2 display-4 text-center mb-5 py-5">Sobre nosotros</h2>
 
             <!--Grid row-->
             <div class="row wow fadeIn">
@@ -63,7 +60,7 @@
                     <!--First row About Us-->
                     <div class="row">
                         <div class="col-1 mr-3">
-                            <i class="fas fa-code fa-2x indigo-text"></i>
+                            <i class="fas fa-users fa-2x indigo-text"></i>
                         </div>
                         <div class="col-10">
                             <h5 class="feature-title">Sobre Nosotros</h5>
@@ -78,10 +75,10 @@
                     <!--Second row Mission-->
                     <div class="row">
                         <div class="col-1 mr-3">
-                            <i class="fas fa-book fa-2x blue-text"></i>
+                            <i class="fas fa-flag-checkered fa-2x blue-text"></i>
                         </div>
                         <div class="col-10">
-                            <h5 class="feature-title">Mission</h5>
+                            <h5 class="feature-title">Mision</h5>
                             <p class="grey-text">We give you detailed user-friendly documentation at your disposal. It
                                 will help you to implement your ideas
                                 easily.
@@ -96,10 +93,10 @@
                     <!--Third row-->
                     <div class="row">
                         <div class="col-1 mr-3">
-                            <i class="fas fa-graduation-cap fa-2x cyan-text"></i>
+                            <i class="fas fa-binoculars fa-2x cyan-text"></i>
                         </div>
                         <div class="col-10">
-                            <h5 class="feature-title">Vission</h5>
+                            <h5 class="feature-title">Vision</h5>
                             <p class="grey-text">We care about the development of our users. We have prepared numerous
                                 tutorials, which allow you to learn
                                 how to use MDB as well as other technologies.</p>
@@ -112,7 +109,6 @@
 
             </div>
             <!--/Grid row-->
-
         </section>
         <!--Finish Section: About Us-->
 
@@ -122,9 +118,9 @@
             <!--Start Section: Carousel Events-->
 
             <!--Carousel Wrapper-->
-            <h2 id="title_services" class="h2 display-4 text-center my-5">Programas y Convocatorias</h2>
+            <h2 id="title_services" class="h2 display-4 text-center m py-5">Programas y Convocatorias</h2>
 
-            <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+            <div id="carousel-example-2" class="carousel slide carousel-fade pb-5" data-ride="carousel">
                 <!--Indicators-->
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
@@ -179,11 +175,11 @@
         <hr class="my-5">
 
         <!--Start Section: Services-->
-        <section id="section-services">
+        <section id="section-services" class="pb-5">
 
             <div class="container">
                 <div class="text-center">
-                    <h2 id="title_services" class="h2 display-4 text-center mb-4">Nuestros Servicios</h2>
+                    <h2 id="title_services" class="h2 display-4 text-center mb-4 py-5">Nuestros Servicios</h2>
 
                 </div>
 
