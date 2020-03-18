@@ -1,54 +1,62 @@
 
-<!-- Footer -->
-</main>
-<footer class="bg-dark">
-    <div class="container my-4">
-        <div class="row">
-            <div class="col-md-4">
-                <h3 class="text-white text-v" >
-                    <img src="assets/images/ic_venatici.jpg" width="30" height="30" class="d-inline-block align-top mr-2 rounded"
-                      alt=""> Venatici</h3>
-            </div>
-            <div class="col-md-4 footer-contact wow fadeInDown animated text-white" style="visibility: visible; animation-name: fadeInDown;">
-                <h3>Contacto</h3>
-                <p><i class="fas fa-map-marker-alt"></i>  Talca</p>
-                <p><i class="fas fa-phone"></i>  Telefono: +56973586517</p>
-                <p><i class="fas fa-envelope"></i>  Email: <a href="mailto:venatici.asesorias@gmail.com" class="txt-link" >venatici.asesorias@gmail.com</a></p>  
-            </div>
-            <div class="col-md-4 footer-social wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-                <h3 class="text-white">Siguenos en</h3>
-                <p>
-                    <a href="https://www.facebook.com/venatici/" target="_blank"><i   class="fab fa-facebook-square fa-2x icon "></i></a> 
-                    <a href="https://www.instagram.com/venaticiasesorias/?hl=es-la" target="_blank"><i class="fab fa-instagram fa-2x icon"></i></a> 
+<!--Footer-->
+<footer class="page-footer text-center font-small mt-4 wow fadeIn">
 
-                </p>
-            </div>
+  <!--Call to action-->
+  <div class="pt-4">
+    <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/"
+      target="_blank" role="button">Download MDB
+      <i class="fas fa-download ml-2"></i>
+    </a>
+    <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank"
+      role="button">Start free tutorial
+      <i class="fas fa-graduation-cap ml-2"></i>
+    </a>
+  </div>
+  <!--/.Call to action-->
 
-        </div>
-    </div>
+  <hr class="my-4">
+
+  <!-- Social icons -->
+  <div class="pb-4">
+    <a href="https://www.facebook.com/venatici/" target="_blank">
+      <i class="fab fa-facebook-f mr-3"></i>
+    </a>
+
+    <a href="https://www.instagram.com/venaticiasesorias/?hl=es-la" target="_blank">
+      <i class="fab fa-instagram mr-3"></i>
+    </a>
+
+  </div>
+  <!-- Social icons -->
+
+  <!--Copyright-->
+  <div class="footer-copyright py-3">
+    © 2018 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+  </div>
+  <!--/.Copyright-->
+
 </footer>
-<!-- Footer -->
+<!--/.Footer-->
+
+
+
+<!-- jQuery -->
+<script type="text/javascript" src="assets/lib/MDB-Free-4.14.1/js/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="assets/lib/MDB-Free-4.14.1/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="assets/lib/MDB-Free-4.14.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="assets/lib/MDB-Free-4.14.1/js/mdb.min.js"></script>
+
+<script type="text/javascript" src="assets/js/smooth-scroll.js"></script>
+<!-- Your custom scripts (optional) -->
+<script type="text/javascript"></script>
+
 
 
 </body>
-
-
-<!-- JQuery -->
-<script type="text/javascript" src="assets/lib/jquery-3.4.1/jquery-3.4.1.min.js"></script>
-<!-- Popper -->
-<script type="text/javascript" src="assets/lib/popper-1.12.9/popper.min.js"></script>
-<!-- Javascript -->
-<script type="text/javascript" src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
-
-<script type="text/javascript" src="assets/js/custom-home.js"></script>
-<!--  -->
-<script type="text/javascript" src="assets/js/home.js"></script>
-
-<script type="text/javascript" src="assets/js/effect-navbar.js"></script>
-<script type="text/javascript" src="assets/js/effect-text.js"></script>
-
-
-
-
 
 </html>

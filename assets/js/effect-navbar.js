@@ -1,5 +1,6 @@
 $(window).scroll(function (event) {
   var scroll = $(window).scrollTop();
+  /*
   effect_text("text")
   effect_text("text2")
   effect_text("text3")
@@ -7,6 +8,7 @@ $(window).scroll(function (event) {
   effect_text("title_mission")
   effect_text("title_vision")
   effect_text("title_services")
+  */
 });
 
 $("a").on('click', function(event) {

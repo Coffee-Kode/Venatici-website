@@ -44,6 +44,7 @@
     display:inline;
     width: 100%;
     padding: 0 15px;
+
 }
 
 
@@ -52,10 +53,13 @@
     padding-left: 0%;
     list-style: none;
     list-style-type: none;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 ul li:last-child{
     border: none;
 }
+
 .fa-check-circle{
     color: green;
     margin-right: 10px;
