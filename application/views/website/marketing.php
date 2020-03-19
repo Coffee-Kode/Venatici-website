@@ -1,5 +1,5 @@
- <div class="container">
-    <h2 class="h2 display-4 text-center pt-4 mb-4">Marketing Digital</h2>
+ <div class="container mb-4">
+    <h2 class="h2 display-4 text-center mb-4" style="padding-top: 4rem">Marketing Digital</h2>
     <div class="row">
 
       <!-- Start Card-->
