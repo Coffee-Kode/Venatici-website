@@ -64,7 +64,7 @@
                         </div>
                         <div class="col-10">
                             <h5 class="feature-title">Sobre Nosotros</h5>
-                            <p class="grey-text">Thanks to MDB you can take advantage of all feature of newest Bootstrap
+                            <p id="about_us" class="grey-text">Thanks to MDB you can take advantage of all feature of newest Bootstrap
                                 4.</p>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                         </div>
                         <div class="col-10">
                             <h5 class="feature-title">Mision</h5>
-                            <p class="grey-text">We give you detailed user-friendly documentation at your disposal. It
+                            <p id="mission" class="grey-text">We give you detailed user-friendly documentation at your disposal. It
                                 will help you to implement your ideas
                                 easily.
                             </p>
@@ -97,7 +97,7 @@
                         </div>
                         <div class="col-10">
                             <h5 class="feature-title">Vision</h5>
-                            <p class="grey-text">We care about the development of our users. We have prepared numerous
+                            <p id="vision" class="grey-text">We care about the development of our users. We have prepared numerous
                                 tutorials, which allow you to learn
                                 how to use MDB as well as other technologies.</p>
                         </div>
@@ -113,6 +113,7 @@
         <!--Finish Section: About Us-->
 
         <hr class="my-5">
+
         <!-- Start Section: Programs and calls-->
         <section id="section-programs-calls">
             <!--Start Section: Carousel Events-->
@@ -125,7 +126,7 @@
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-example-2" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                   <!-- <li data-target="#carousel-example-2" data-slide-to="2"></li>-->
                 </ol>
                 <!--/.Indicators-->
                 <!--Slides-->
@@ -136,8 +137,8 @@
                             <div class="mask rgba-black-light"></div>
                         </div>
                         <div class="carousel-caption">
-                            <h3 class="h3-responsive">Light mask</h3>
-                            <p>First text</p>
+                            <h3 class="h3-responsive">Ingresa aquí</h3>
+                         <!--   <p>First text</p> -->
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -147,8 +148,8 @@
                             <div class="mask rgba-black-strong"></div>
                         </div>
                         <div class="carousel-caption">
-                            <h3 class="h3-responsive">Strong mask</h3>
-                            <p>Secondary text</p>
+                            <h3 class="h3-responsive" href="">Ingresa aquí</h3>
+                         <!--   <p>First text</p> -->
                         </div>
                     </div>
                 </div>
@@ -171,7 +172,6 @@
         </section>
         <!-- Finish Section: Programs and calls-->
 
-
         <hr class="my-5">
 
         <!--Start Section: Services-->
@@ -193,7 +193,7 @@
                             <p id="text" class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing
                                 elit. Minima maxime quam architecto
                                 quo inventore harum ex magni, dicta impedit.</p>
-                                <a class="btn btn-primary btn-sm mb-4" href="develop_web"><h6 class="pt-2">Saber más >></h6></a>
+                                <a class="btn btn-primary btn-sm mb-4" href="emprende"><h6 class="pt-2">Saber más >></h6></a>
 
                     </div>
 
@@ -207,7 +207,7 @@
                                 Minima
                                 maxime quam architecto
                                 quo inventore harum ex magni, dicta impedit.</p>
-                                <a class="btn btn-primary btn-sm mb-4" href="develop_web"><h6 class="pt-2">Saber más >></h6></a>
+                                <a class="btn btn-primary btn-sm mb-4" href="marketing"><h6 class="pt-2">Saber más >></h6></a>
                     </div>
 
 

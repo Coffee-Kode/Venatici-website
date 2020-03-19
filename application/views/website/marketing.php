@@ -1,6 +1,5 @@
-<section id="price">
-  <div class="container">
-    <h2 class="display-4 text-center mb-4">Marketing Digital</h2>
+ <div class="container">
+    <h2 class="h2 display-4 text-center pt-4 mb-4">Marketing Digital</h2>
     <div class="row">
 
       <!-- Start Card-->
@@ -74,4 +73,3 @@
 
     </div>
   </div>
-</section>

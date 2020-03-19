@@ -5,8 +5,7 @@
 
 .single-price{
     margin:10px auto;
-    display: inline;
-
+    display: block;
     background-color: #fff;
     transition: 0.5s;
 }
@@ -14,10 +13,10 @@
 .single-price:hover{
     box-shadow: 0 2px 20px #333;
 }
-.price-head{
-    background-color: #2196f3;
-    display: inline;
 
+.price-head{
+    background-color: black;
+    display: block;
     padding: 10px 5px;
     text-align: center;
 }
@@ -35,24 +34,29 @@
     font-weight: bold;
     line-height: 30px;
 }
+
 #price span{
     font-size: 15px;
 }
 .price-content{
     display:inline;
-    padding: 0 15px;
-
+    padding: 0px 15px 0px 15px
+}
+ul{
+    padding-left: inherit;
+    padding-right: inherit;
 }
 
 
 .price-content ul li{
     border-bottom: 1px solid #efefef;
-    padding-left: 0%;
     list-style: none;
     list-style-type: none;
     padding-top: 30px;
-    padding-left: 30px;
+    padding-right: 15px;
+
 }
+
 ul li:last-child{
     border: none;
 }

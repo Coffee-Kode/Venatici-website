@@ -75,9 +75,11 @@
 
       <!-- Brand -->
       <a class="navbar-brand" href="#home" target="_blank">
+      <img src="assets/images/favicon.png" height="30" class="d-inline-block align-top" alt="mdb logo">
         <strong>Venatici</strong>
       </a>
 
+ 
       <!-- Collapse -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

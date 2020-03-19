@@ -1,7 +1,7 @@
 
 <section id="price">
     <div class="container">
-        <h2 class="display-4 text-center mb-4">Pagina Web</h2>
+        <h2 class="h2 display-4 text-center pt-4 mt-3 mb-4">Pagina Web</h2>
         <div class="row">
 
                         <!-- Start Card Basic-->
@@ -9,7 +9,7 @@
                             <div class="single-price">
                                 <div class="price-head">
                                     <h3>Básico</h3>
-                                    <p>$160.000 <pan>aprox</span></p>
+                                    <p><pan>desde </span>$160.000 </p>
                                 </div>
             
                                 <div class="price-content">
@@ -39,7 +39,7 @@
                 <div class="single-price">
                     <div class="price-head">
                         <h3>Medio</h3>
-                        <p>$160.000 <pan>aprox</span></p>
+                        <p><pan>desde </span>$160.000 </p>
                     </div>
 
                     <div class="price-content">
@@ -71,9 +71,7 @@
                 <div class="single-price">
                     <div class="price-head">
                         <h3>Avanzado</h3>
-                        <p>$270.000
-                            <pan>aprox.</span>
-                        </p>
+                        <p><pan>desde </span>$270.000</p>
                     </div>
 
                     <div class="price-content">
@@ -103,9 +101,7 @@
                 <div class="single-price">
                     <div class="price-head">
                         <h3>Full Avanzado</h3>
-                        <p>$360.000
-                            <pan>aprox</span>
-                        </p>
+                        <p><pan>desde</span>$360.000</p>
                     </div>
 
                     <div class="price-content">

@@ -1,5 +1,5 @@
 <!--Footer-->
-<footer id="section-contact" class="page-footer font-small mt-4 wow fadeIn pt-3">
+<footer id="section-contact" class="page-footer font-small wow fadeIn pt-3">
 
   <!-- Start Contact-->
   <div class="container">
@@ -38,13 +38,12 @@
   <!--Copyright-->
   <div class="footer-copyright py-3 text-right pr-4">
     © 2020 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> Diseñado por CoffeKode </a>
+    <a href="https://coffeekode.cl/" target="_blank"> Diseñado por CoffeKode </a>
   </div>
   <!--/.Copyright-->
 
 </footer>
 <!--/.Footer-->
-
 
 
 <!-- jQuery -->
@@ -59,6 +58,8 @@
 <script type="text/javascript" src="assets/js/effect-navbar.js"></script>
 
 <script type="text/javascript" src="assets/js/transition.js"></script>
+
+<script type="text/javascript" src="assets/js/autoadmin.js"></script>
 <!-- Your custom scripts (optional) -->
 <script type="text/javascript"></script>
 

@@ -1,24 +1,22 @@
 
 <section id="price">
   <div class="container">
-    <h2 class="display-4 text-center mb-4">Marketing Digital</h2>
+    <h2 class="h2 display-4 text-center pt-4 mb-4">Inicio Emprende</h2>
     <div class="row">
 
       <!-- Start Card-->
       <div class="col-md-4">
         <div class="single-price">
           <div class="price-head">
-            <h3>Básico</h3>
-            <p>$100.000 <!--<pan>anual</span>--></p>
+            <h3>Plan 1</h3>
+            <p>$35.000 <!--<pan>anual</span>--></p>
           </div>
 
           <div class="price-content">
             <ul>
               <li><i class="fa fa-check-circle"></i>Preparación de escrituras</li>
               <li><i class="fa fa-check-circle"></i>Obtención de rut</li>
-              <li class="text-white">.</li>
-              <li class="text-white">.</li>
-              <li class="text-white">.</li>
+
             </ul>
           </div>
         </div>
@@ -29,8 +27,8 @@
       <div class="col-md-4">
         <div class="single-price">
           <div class="price-head">
-            <h3>Medio</h3>
-            <p>$200.000 <!--<pan>anual</span>--></p>
+            <h3>Plan 2</h3>
+            <p>$50.000 <!--<pan>anual</span>--></p>
           </div>
 
           <div class="price-content">
@@ -50,7 +48,7 @@
         <div class="single-price">
           <div class="price-head">
             <h3>Fondos concursables</h3>
-            <p>$300.000 <!--<pan>anual</span>--></p>
+            <p>$50.000<!--<pan>anual</span>--></p>
           </div>
 
           <div class="price-content">
