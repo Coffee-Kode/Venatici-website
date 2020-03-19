@@ -193,7 +193,7 @@
                             <p id="text" class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing
                                 elit. Minima maxime quam architecto
                                 quo inventore harum ex magni, dicta impedit.</p>
-                            <a class="btn btn-primary btn-sm mb-4" href="emprende">Saber más >></a>
+                                <a class="btn btn-primary btn-sm mb-4" href="develop_web"><h6 class="pt-2">Saber más >></h6></a>
 
                     </div>
 
@@ -207,7 +207,7 @@
                                 Minima
                                 maxime quam architecto
                                 quo inventore harum ex magni, dicta impedit.</p>
-                            <a class="btn btn-primary btn-sm mb-4" href="marketing">Saber más >></a>
+                                <a class="btn btn-primary btn-sm mb-4" href="develop_web"><h6 class="pt-2">Saber más >></h6></a>
                     </div>
 
 
@@ -221,7 +221,7 @@
                                 Minima
                                 maxime quam architecto
                                 quo inventore harum ex magni, dicta impedit.</p>
-                            <a class="btn btn-primary btn-sm mb-4" href="develop_web">Saber más >></a>
+                            <a class="btn btn-primary btn-sm mb-4" href="develop_web"><h6 class="pt-2">Saber más >></h6></a>
                     </div>
 
                 </div>

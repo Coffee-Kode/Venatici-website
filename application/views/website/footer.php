@@ -25,10 +25,10 @@
         <h3 class="h3">Siguenos</h3>
         <hr class="hr-light">
         <a href="https://www.facebook.com/venatici/" target="_blank">
-          <i class="fab fa-facebook-f mr-3 fa-2x"></i>
+          <i class="fab fa-facebook-f mr-3 fa-lg "></i>
         </a>
         <a href="https://www.instagram.com/venaticiasesorias/?hl=es-la" target="_blank">
-          <i class="fab fa-instagram mr-3 fa-2x"></i>
+          <i class="fab fa-instagram mr-3 fa-lg "></i>
         </a>
       </div>
     </div>
@@ -57,6 +57,8 @@
 <script type="text/javascript" src="assets/lib/MDB-Free-4.14.1/js/mdb.min.js"></script>
 
 <script type="text/javascript" src="assets/js/effect-navbar.js"></script>
+
+<script type="text/javascript" src="assets/js/transition.js"></script>
 <!-- Your custom scripts (optional) -->
 <script type="text/javascript"></script>
 
