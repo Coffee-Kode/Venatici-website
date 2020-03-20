@@ -19,7 +19,6 @@
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="assets/lib/MDB-Free-4/css/bootstrap.min.css">
-
   <link rel="stylesheet" href="assets/lib/MDB-Free-4.14.1/css/bootstrap.min.css">
 
   <!-- Material Design Bootstrap -->
@@ -75,7 +74,7 @@
     <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand" href="#home" target="_blank">
+      <a class="navbar-brand" href="home">
       <img src="assets/images/favicon.png" height="30" class="d-inline-block align-top" alt="mdb logo">
         <strong>Venatici</strong>
       </a>
@@ -92,18 +91,9 @@
         <!-- Left -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link"  href="#home">Inicio
+            <a class="nav-link"  href="home">Inicio
               <span class="sr-only">(current)</span>
             </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section-about-us" >Sobre nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section-programs-calls">Programas y convocatorias</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section-services">Servicios</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#section-contact">Contacto</a>

@@ -101,7 +101,7 @@
                 <div class="single-price">
                     <div class="price-head">
                         <h3>Full Avanzado</h3>
-                        <p><pan>desde</span>$360.000</p>
+                        <p><pan>desde </span>$360.000</p>
                     </div>
 
                     <div class="price-content">
