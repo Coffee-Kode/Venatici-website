@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'website_ctrl';
 
 // website routes
-$route['home'] = 'website_ctrl';
+$route['home'] = 'website_ctrl/home';
 $route['marketing'] = 'website_ctrl/marketing';
 $route['emprende'] = 'website_ctrl/emprende';
 $route['develop_web'] = 'website_ctrl/develop_web';

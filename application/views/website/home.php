@@ -166,7 +166,7 @@
                 <!--/.Controls-->
             </div>
             <!--/.Carousel Wrapper-->
-            F
+        
             <!--Finish Section: Carousel Events-->
 
         </section>

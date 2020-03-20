@@ -14,6 +14,13 @@ class website_ctrl extends CI_Controller {
 		$this->load->view('website/footer');
 	}
 
+	public function home()
+	{
+		$this->load->view('website/header');
+		$this->load->view('website/home');
+		$this->load->view('website/footer');
+	}
+	
 	public function marketing()
 	{
 		$this->load->view('website/header_services');
