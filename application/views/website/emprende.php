@@ -14,8 +14,8 @@
 
           <div class="price-content">
             <ul>
-              <li><i class="fa fa-check-circle"></i>Preparación de escrituras</li>
-              <li><i class="fa fa-check-circle"></i>Obtención de rut</li>
+              <li class="pb-2"><i class="fa fa-check-circle"></i>Preparación de escrituras</li>
+              <li class="pb-2"><i class="fa fa-check-circle"></i>Obtención de rut</li>
 
             </ul>
           </div>
@@ -33,10 +33,10 @@
 
           <div class="price-content">
             <ul>
-              <li><i class="fa fa-check-circle"></i>Inicio de actividades</li>
-              <li><i class="fa fa-check-circle"></i>Obtención de clave</li>
-              <li><i class="fa fa-check-circle"></i>Instalación de certificado para facturación electrónica</li>
-              <li><i class="fa fa-check-circle"></i>Acreditación de domicilio y actividad</li>
+              <li class="pb-2"><i class="fa fa-check-circle"></i>Inicio de actividades</li>
+              <li class="pb-2"><i class="fa fa-check-circle"></i>Obtención de clave</li>
+              <li class="pb-2"><i class="fa fa-check-circle"></i>Instalación de certificado para facturación electrónica</li>
+              <li class="pb-2"><i class="fa fa-check-circle"></i>Acreditación de domicilio y actividad</li>
             </ul>
           </div>
         </div>
@@ -47,14 +47,15 @@
       <div class="col-md-4">
         <div class="single-price">
           <div class="price-head">
-            <h3>Fondos concursables</h3>
+            <h3>Plan 3</h3>
             <p>$50.000<!--<pan>anual</span>--></p>
           </div>
 
           <div class="price-content">
             <ul>
-              <li><i class="fa fa-check-circle"></i>Imagen</li>
-              <li><i class="fa fa-check-circle"></i>Logotipo</li>
+              <li class="pb-2"><i class="fa fa-check-circle"></i>Imagen</li>
+              <li class="pb-2"><i class="fa fa-check-circle"></i>Logotipo</li>
+              <li class="pb-2"><i class="fa fa-check-circle"></i>Fondos Concursables</li>
             </ul>
           </div>
         </div>
