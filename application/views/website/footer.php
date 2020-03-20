@@ -18,6 +18,7 @@
         <hr class="hr-light">
         <p><i class="fas fa-map-marker-alt mr-3"></i> Talca</p>
         <p><i class="fas fa-phone mr-3"></i> +56973586517, +56999111915</p>
+        <p><i class="fab fa-whatsapp mr-3"></i> +56973586517, +56999111915</p>
         <p><i class="fas fa-envelope mr-3"></i> Correo: <a
             href="mailto:venatici.asesorias@gmail.com">venatici.asesorias@gmail.com</a></p>
       </div>

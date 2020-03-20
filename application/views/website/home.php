@@ -48,7 +48,8 @@
 
                 <div class="col-lg-6 col-md-12 ">
 
-                    <img src="assets/images/img-about-us.jpg" class="rounded img-fluid z-depth-1-half" alt="responsive">
+                    <img src="assets/images/img-about-us.jpg" class="rounded img-fluid z-depth-1-half mb-4"
+                        alt="responsive">
 
                 </div>
 
@@ -64,8 +65,15 @@
                         </div>
                         <div class="col-10">
                             <h5 class="feature-title">Sobre Nosotros</h5>
-                            <p id="about_us" class="grey-text">Thanks to MDB you can take advantage of all feature of newest Bootstrap
-                                4.</p>
+                            <p id="about_us" class="grey-text">Somos una compañía dedicada a contribuir en el desarrollo
+                                de emprendimientos tempranos y empresas que necesitan lograr su consolidación en la
+                                industria, aportando con servicios dedicados a las distintas etapas del ciclo de vida,
+                                comenzando con su constitución y formalización hasta la inteligencia comercial por medio
+                                de herramientas de marketing.
+                                Para esto contamos con un equipo de profesionales capacitados para entregar un servicio
+                                óptimo y dedicado a cada uno de nuestros clientes, acompañándolos y resolviendo todas
+                                sus necesidades.
+                            </p>
                         </div>
                     </div>
                     <!--/First row-->
@@ -79,9 +87,8 @@
                         </div>
                         <div class="col-10">
                             <h5 class="feature-title">Mision</h5>
-                            <p id="mission" class="grey-text">We give you detailed user-friendly documentation at your disposal. It
-                                will help you to implement your ideas
-                                easily.
+                            <p id="mission" class="grey-text">Contribuir al desarrollo empresarial y de emprendimiento a
+                                través de la asesoría y soporte técnico que requieran para su crecimiento.
                             </p>
                         </div>
                     </div>
@@ -97,9 +104,9 @@
                         </div>
                         <div class="col-10">
                             <h5 class="feature-title">Vision</h5>
-                            <p id="vision" class="grey-text">We care about the development of our users. We have prepared numerous
-                                tutorials, which allow you to learn
-                                how to use MDB as well as other technologies.</p>
+                            <p id="vision" class="grey-text">Queremos ser la mejor opción para aquellos emprendedores y
+                                empresarios que necesitan una mejora en marketing y posicionamiento a nivel nacional.
+                            </p>
                         </div>
                     </div>
                     <!--/Third row-->
@@ -118,40 +125,33 @@
         <section id="section-programs-calls">
             <!--Start Section: Carousel Events-->
 
-            <!--Carousel Wrapper-->
-            <h2 id="title_services" class="h2 display-4 text-center m py-5">Programas y Convocatorias</h2>
+            <h2 id="title_services" class="h2 display-4 text-center py-5">Programas y Convocatorias</h2>
 
-            <div id="carousel-example-2" class="carousel slide carousel-fade pb-5" data-ride="carousel">
+            <!--Carousel Wrapper-->
+            <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
                 <!--Indicators-->
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-2" data-slide-to="1"></li>
-                   <!-- <li data-target="#carousel-example-2" data-slide-to="2"></li>-->
+                   <!-- <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-2" data-slide-to="2"></li> -->
                 </ol>
                 <!--/.Indicators-->
                 <!--Slides-->
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="view">
-                            <img class="d-block w-100" src="assets/images/img-corfo1.png" alt="First slide">
+                            <img class="d-block w-100" src="assets/images/img-carousel-1.png"
+                                alt="First slide">
                             <div class="mask rgba-black-light"></div>
                         </div>
                         <div class="carousel-caption">
-                            <h3 class="h3-responsive">Ingresa aquí</h3>
-                         <!--   <p>First text</p> -->
+                            <a class="display-4 font-weight-bold">Venatici</a>
+                            <p><strong>Asesoría Comercial y Publicidad</strong></p>
+
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <!--Mask color-->
-                        <div class="view">
-                            <img class="d-block w-100" src="assets/images/img-corfo2.png" alt="Second slide">
-                            <div class="mask rgba-black-strong"></div>
-                        </div>
-                        <div class="carousel-caption">
-                            <h3 class="h3-responsive" href="">Ingresa aquí</h3>
-                         <!--   <p>First text</p> -->
-                        </div>
-                    </div>
+                   
+
                 </div>
                 <!--/.Slides-->
                 <!--Controls-->
@@ -166,7 +166,7 @@
                 <!--/.Controls-->
             </div>
             <!--/.Carousel Wrapper-->
-
+            F
             <!--Finish Section: Carousel Events-->
 
         </section>
@@ -189,11 +189,13 @@
                             <i class="fas fa-circle fa-stack-2x icon-color"></i>
                             <i class="fas fa-hands-helping fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h3 class="service-heading">Inicio Emprende</h4>
-                            <p id="text" class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Minima maxime quam architecto
-                                quo inventore harum ex magni, dicta impedit.</p>
-                                <a class="btn btn-primary btn-sm mb-4" href="emprende"><h6 class="pt-2">más información</h6></a>
+                        <h3 class="service-heading">Inicio Emprende</h3>
+                            <p id="text" class="grey-text">Formalizamos tu empresa con la preparación de escritura y
+                                obtención de Rut, además de habilitarla ante el servicio de impuestos internos junto con
+                                la instalación de certificado digital para facturas y boletas.</p>
+                            <a class="btn btn-primary btn-sm mb-4" href="emprende">
+                                <h6 class="pt-2">más información</h6>
+                            </a>
 
                     </div>
 
@@ -202,12 +204,13 @@
                             <i class="fas fa-circle fa-stack-2x icon-color"></i>
                             <i class="fas fa-chart-bar fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h3 class="service-heading">Marketing Digital</h4>
-                            <p id="text2" class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Minima
-                                maxime quam architecto
-                                quo inventore harum ex magni, dicta impedit.</p>
-                                <a class="btn btn-primary btn-sm mb-4" href="marketing"><h6 class="pt-2">más información</h6></a>
+                        <h3 class="service-heading">Marketing Digital</h3>
+                            <p id="text2" class="grey-text">Con esta herramienta posicionaremos su marca en redes
+                                sociales y en la web. Por medio de un servicio comunicacional integral desde la creación
+                                de su sitio hasta la gestión de sus redes sociales y el diseño de campañas</p>
+                            <a class="btn btn-primary btn-sm mb-4" href="marketing">
+                                <h6 class="pt-2">más información</h6>
+                            </a>
                     </div>
 
 
@@ -216,12 +219,15 @@
                             <i class="fas fa-circle fa-stack-2x icon-color"></i>
                             <i class="fas fa-laptop-code fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h3 class="service-heading">Paginas Web</h4>
-                            <p id="text3" class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Minima
-                                maxime quam architecto
-                                quo inventore harum ex magni, dicta impedit.</p>
-                            <a class="btn btn-primary btn-sm mb-4" href="develop_web"><h6 class="pt-2">más información</h6></a>
+                        <h3 class="service-heading">Paginas Web</h3>
+                            <p id="text3" class="grey-text">Consigue nuevos clientes desde internet y haz crecer tu
+                                negocio.
+                                Es el momento de tener tu propia página web. De calidad,
+                                orientada a tu público objetivo, con un diseño atractivo y
+                                con la información que tus clientes valoren.</p>
+                            <a class="btn btn-primary btn-sm mb-4" href="develop_web">
+                                <h6 class="pt-2">más información</h6>
+                            </a>
                     </div>
 
                 </div>
