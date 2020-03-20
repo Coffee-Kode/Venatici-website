@@ -5,7 +5,7 @@
     <div class="row">
 
       <!-- Start Card-->
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="single-price">
           <div class="price-head">
             <h3>Plan 1</h3>
@@ -24,7 +24,7 @@
       <!-- Finish Card-->
 
       <!-- Start Card-->
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="single-price">
           <div class="price-head">
             <h3>Plan 2</h3>
@@ -43,19 +43,36 @@
       </div>
       <!-- Finish Card-->
 
-      <!-- Start Card-->
-      <div class="col-md-4">
+            <!-- Start Card-->
+            <div class="col-md-3">
         <div class="single-price">
           <div class="price-head">
             <h3>Plan 3</h3>
-            <p>$50.000<!--<pan>anual</span>--></p>
+           <p>Asesorías<!--<pan>anual</span> --></p>
+          </div>
+
+          <div class="price-content">
+            <ul>
+              <li class="pb-2"><i class="fa fa-check-circle"></i>Proyectos Sociales - $150.000</li>
+              <li class="pb-2"><i class="fa fa-check-circle"></i>Proyectos Corfo - $100.000</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Finish Card-->
+
+      <!-- Start Card-->
+      <div class="col-md-3">
+        <div class="single-price">
+          <div class="price-head">
+            <h3>Plan 4</h3>
+            <p>Precio a convenir<!--<pan>anual</span>--></p>
           </div>
 
           <div class="price-content">
             <ul>
               <li class="pb-2"><i class="fa fa-check-circle"></i>Imagen</li>
               <li class="pb-2"><i class="fa fa-check-circle"></i>Logotipo</li>
-              <li class="pb-2"><i class="fa fa-check-circle"></i>Fondos Concursables</li>
             </ul>
           </div>
         </div>
