@@ -39,8 +39,8 @@
     font-size: 15px;
 }
 .price-content{
-    display:inline;
-    padding: 0px 15px 0px 15px
+    display:block;
+    padding: 0px 10px 0px 10px
 }
 ul{
     padding-left: inherit;
@@ -52,7 +52,7 @@ ul{
     border-bottom: 1px solid #efefef;
     list-style: none;
     list-style-type: none;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-right: 15px;
 
 }
