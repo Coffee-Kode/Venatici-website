@@ -9,7 +9,7 @@
                             <div class="single-price">
                                 <div class="price-head">
                                     <h3>Básico</h3>
-                                    <p><pan>desde </span>$160.000 </p>
+                                    <p><pan>desde </span>$100.000 </p>
                                 </div>
             
                                 <div class="price-content">
@@ -39,7 +39,7 @@
                 <div class="single-price">
                     <div class="price-head">
                         <h3>Medio</h3>
-                        <p><pan>desde </span>$160.000 </p>
+                        <p><pan>desde </span>$200.000 </p>
                     </div>
 
                     <div class="price-content">
