@@ -9,7 +9,7 @@
   <title>Venatici</title>
 
   <!-- MDB icon -->
-  <link rel="icon" href="../assets/css/favicon.png" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="assets/lib/fontawesome-5.12.1/css/all.css">
@@ -30,38 +30,12 @@
 
   <link rel="stylesheet" href="assets/css/marketing.css">
 
+  <link rel="stylesheet" href="assets/css/home.css">
+
+  <link rel="stylesheet" href="assets/css/header.css">
+
 
   <style>
-    .gray {
-      background: rgba(0, 0, 0, 0.300);
-    }
-
-    .top-nav-collapse {
-      background-color: rgba(0, 0, 0, 0.800) !important;
-    }
-
-
-    .bg-img {
-      height: 100vh;
-      background: url('assets/images/img-background.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .page-footer {
-      background-color: #1C2331;
-    }
-
-    .icon-color {
-      color: rgb(29, 202, 202);
-    }
-
-    .container{
-    }
-    section{
-      width: 100%;
-      scroll-behavior: smooth;
-    }
 
   </style>
 
@@ -76,8 +50,7 @@
 
       <!-- Brand -->
       <a class="navbar-brand" href="#home" target="_blank">
-      <img src="assets/images/favicon.png" height="30" class="d-inline-block align-top" alt="mdb logo">
-        <strong>Venatici</strong>
+      <img src="assets/images/img-logo.png" height="50" class="d-inline-block align-top" alt="mdb logo">
       </a>
  
       <!-- Collapse -->

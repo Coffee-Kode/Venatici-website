@@ -6,11 +6,9 @@
     <div class="row">
       <div class="col-md-4">
         <a href="#home" class="h3">
-          <img src="assets/images/favicon.png" height="30" class="d-inline-block align-top"
-            alt="mdb logo"> Venatici
+          <img src="assets/images/img-logo.png" height="100" class="d-inline-block align-top"
+            alt="mdb logo">
         </a>
-        <hr class="hr-light">
-        <p>asesoría comercial y publicidad</p>
 
       </div>
       <div class="col-md-4">

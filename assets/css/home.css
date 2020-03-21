@@ -34,6 +34,11 @@
   display: inline-block;
 }
 
+.area{
+  height: 100vh;
+  vertical-align: middle;
+  display:table-cell;
+}
 
 
 
