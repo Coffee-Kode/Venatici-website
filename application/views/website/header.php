@@ -10,10 +10,9 @@
   <title>Venatici</title>
 
   <!-- MDB icon -->
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
-=======
+
 
 
   <!-- Font Awesome -->
