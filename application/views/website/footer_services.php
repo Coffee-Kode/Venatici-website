@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <a href="#home">
+        <a href="home">
           <img src="assets/images/img-logo.png" height="90" class="d-inline-block align-top"
             alt="mdb logo">
         </a>

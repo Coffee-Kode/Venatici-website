@@ -25,20 +25,20 @@ class website_ctrl extends CI_Controller {
 	{
 		$this->load->view('website/header_services');
 		$this->load->view('website/marketing');
-		$this->load->view('website/footer');
+		$this->load->view('website/footer_services');
 	}
 
 	public function emprende()
 	{
 		$this->load->view('website/header_services');
 		$this->load->view('website/emprende');
-		$this->load->view('website/footer');
+		$this->load->view('website/footer_services');
 	}
 
 	public function develop_web()
 	{
 		$this->load->view('website/header_services');
 		$this->load->view('website/develop_web');
-		$this->load->view('website/footer');
+		$this->load->view('website/footer_services');
 	}
 }

@@ -1,24 +1,19 @@
 <!-- Full Page Intro -->
 <div id="home" class="view full-page-intro bg-img">
 
-    <!-- Mask & flexbox options-->
+    <!-- Text main image-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-
         <!-- Content -->
         <div class="container">
-
             <!--Grid row-->
             <div class="row wow fadeIn">
-
                 <!--Grid column-->
                 <div class="col-md-6 white-text text-center text-md-left pt-5">
-
                     <h1 class="display-4 font-weight-bold">Venatici</h1>
 
                     <hr class="hr-light">
 
                     <p><strong>Asesoría Comercial y Publicidad</strong></p>
-
                 </div>
                 <!--Grid column-->
             </div>
@@ -35,18 +30,15 @@
     <div class="container">
         <!-- Start Section: About Us -->
         <section id="section-about-us" class="area">
-
-            <h2 id="title_about_us" class="h2 display-4 text-center">Sobre nosotros</h2>
-
+            <h1 id="title_about_us" class="h1 text-center">Sobre nosotros</h1>
             <!--Grid row-->
-            <div class="row wow fadeIn">
+            <div class="row wow fadeIn mt-3">
 
                 <!-- Start Column img about-us -->
                 <div class="col-md-4 ">
                     <img src="assets/images/img-about-us.jpg" class="rounded img-fluid z-depth-1-half mb-4"
                         alt="responsive">
                 </div>
-
                 <!-- Finish column img about-us -->
 
                 <!--Grid column-->
@@ -54,35 +46,24 @@
 
                     <!--First row About Us-->
                     <div class="row">
-                        <div class="col-1 mr-2">
+                        <div class="col-1 mr-1">
                             <i class="fas fa-users fa-2x indigo-text"></i>
                         </div>
                         <div class="col-10">
                             <h5 class="feature-title">Sobre Nosotros</h5>
-                            <p id="about_us" class="grey-text justify-content-center">Somos una compañía dedicada a
-                                contribuir en el desarrollo
-                                de emprendimientos tempranos y empresas que necesitan lograr su consolidación en la
-                                industria, aportando con servicios dedicados a las distintas etapas del ciclo de vida,
-                                comenzando con su constitución y formalización hasta la inteligencia comercial por medio
-                                de herramientas de marketing.
-                                Para esto contamos con un equipo de profesionales capacitados para entregar un servicio
-                                óptimo y dedicado a cada uno de nuestros clientes, acompañándolos y resolviendo todas
-                                sus necesidades.
-                            </p>
+                            <p id="about_us" class="grey-text justify-content-center"></p>
                         </div>
                     </div>
                     <!--/First row-->
 
                     <!--Second row Mission-->
                     <div class="row">
-                        <div class="col-1 mr-2">
+                        <div class="col-1 mr-1">
                             <i class="fas fa-flag-checkered fa-2x blue-text"></i>
                         </div>
                         <div class="col-10">
-                            <h5 class="feature-title">Mision</h5>
-                            <p id="mission" class="grey-text">Contribuir al desarrollo empresarial y de emprendimiento a
-                                través de la asesoría y soporte técnico que requieran para su crecimiento.
-                            </p>
+                            <h5 class="feature-title">Misión</h5>
+                            <p id="mission" class="grey-text"></p>
                         </div>
                     </div>
 
@@ -90,14 +71,12 @@
 
                     <!--Third row-->
                     <div class="row">
-                        <div class="col-1 mr-2">
+                        <div class="col-1 mr-1">
                             <i class="fas fa-binoculars fa-2x cyan-text"></i>
                         </div>
                         <div class="col-10">
-                            <h5 class="feature-title">Vision</h5>
-                            <p id="vision" class="grey-text">Queremos ser la mejor opción para aquellos emprendedores y
-                                empresarios que necesitan una mejora en marketing y posicionamiento a nivel nacional.
-                            </p>
+                            <h5 class="feature-title">Visión</h5>
+                            <p id="vision" class="grey-text"></p>
                         </div>
                     </div>
                     <!--/Third row-->
@@ -112,20 +91,62 @@
 
         <hr>
 
-        <!-- Start Section: Programs and calls-->
-        <section id="section-programs-calls" class="area">
 
-            <h2 id="title_services" class="h2 display-4 text-center">Programas y Convocatorias</h2>
+ 
+            <div class="container ">
+                <div class="row justify-content-center">
 
-            <div class="container">
-                <div class="row">
-                    <div>
+                    <div class="col-md-10 ">
+                        <!-- Start Section: Programs and calls-->
+                        <div id="carousel-example-1z" class="carousel slide carousel-fade " data-ride="carousel">
+                            <section id="section-programs-calls" class="area">
+                            <h1 id="title_services" class="h1 text-center">Programas y Convocatorias</h1>
 
+
+                            <!--Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+                            </ol>
+                            <!--/.Indicators-->
+                            <!--Slides-->
+                            <div class="carousel-inner mt-3" role="listbox">
+                                <!--First slide-->
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="assets/images/img-carousel-0.png" alt="First slide">
+                                </div>
+                                <!--/First slide-->
+                                <!--Second slide-->
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/images/img-carousel-1.png" alt="Second slide">
+                                </div>
+                                <!--/Second slide-->
+                                <!--Third slide-->
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/images/img-carousel-2.png" alt="Third slide">
+                                </div>
+                                <!--/Third slide-->
+                            </div>
+                            <!--/.Slides-->
+                            <!--Controls-->
+                            <a class="carousel-control-prev grey-text" href="#carousel-example-1z" role="button"
+                                data-slide="prev">
+                                <span aria-hidden="true"><i class="fas fa-angle-left fa-3x"></i></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next  " href="#carousel-example-1z" role="button"
+                                data-slide="next">
+                                <a class="carousel-control-next grey-text" href="#carousel-example-1z" role="button"
+                                    data-slide="next">
+                                    <span aria-hidden="true"><i class="fas fa-angle-right fa-3x"></i></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                                <!--/.Controls-->
+                        </div>
                     </div>
                 </div>
-
             </div>
-
         </section>
         <!-- Finish Section: Programs and calls-->
 
@@ -136,11 +157,11 @@
 
             <div class="container">
                 <div class="text-center">
-                    <h2 id="title_services" class="h2 display-4 text-center">Nuestros Servicios</h2>
+                    <h1 id="title_services" class="h1 text-center">Nuestros Servicios</h1>
 
                 </div>
 
-                <div class="row text-center mt-5">
+                <div class="row text-center mt-4">
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x mb-2">
                             <i class="fas fa-circle fa-stack-2x icon-color"></i>
