@@ -11,11 +11,10 @@
 
   <!-- MDB icon -->
 <<<<<<< HEAD
+<<<<<<< HEAD
   <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
 =======
-  <link href="assets/images/favicon.png" rel="icon">
-  <link href="assets/images/favicon.png" rel="apple-touch-icon">
->>>>>>> 03d2417a651b741cdc6b4a01958081b75823a5a3
+
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="assets/lib/fontawesome-5.12.1/css/all.css">
@@ -57,6 +56,9 @@
       width: 100%;
       scroll-behavior: smooth;
     }
+<<<<<<< HEAD
+>>>>>>> 03d2417a651b741cdc6b4a01958081b75823a5a3
+=======
 >>>>>>> 03d2417a651b741cdc6b4a01958081b75823a5a3
   </style>
 
@@ -66,6 +68,7 @@
 
   <!-- Navbar -->
   <div id="topheader">
+<<<<<<< HEAD
 <<<<<<< HEAD
   <nav class="navbar fixed-top navbar-expand-md navbar-dark gray scrolling-navbar">
     <div class="container">
@@ -106,6 +109,8 @@
         </ul>
       </div>
 =======
+=======
+>>>>>>> 03d2417a651b741cdc6b4a01958081b75823a5a3
     <nav class="navbar fixed-top navbar-expand-md navbar-dark gray scrolling-navbar">
       <div class="container">
 
@@ -144,6 +149,9 @@
             </li>
           </ul>
         </div>
+<<<<<<< HEAD
+>>>>>>> 03d2417a651b741cdc6b4a01958081b75823a5a3
+=======
 >>>>>>> 03d2417a651b741cdc6b4a01958081b75823a5a3
 
       </div>
