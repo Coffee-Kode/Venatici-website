@@ -102,19 +102,11 @@
                             <section id="section-programs-calls" class="area">
                             <h1 id="title_services" class="h1 text-center">Programas y Convocatorias</h1>
 
-
-                            <!--Indicators-->
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-                                <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-                            </ol>
-                            <!--/.Indicators-->
                             <!--Slides-->
                             <div class="carousel-inner mt-3" role="listbox">
                                 <!--First slide-->
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="assets/images/img-carousel-0.png" alt="First slide">
+                                    <img class="d-block w-100" src="assets/images/img-carousel-0.jpg" alt="First slide">
                                 </div>
                                 <!--/First slide-->
                                 <!--Second slide-->
@@ -135,10 +127,8 @@
                                 <span aria-hidden="true"><i class="fas fa-angle-left fa-3x"></i></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next  " href="#carousel-example-1z" role="button"
+                            <a class="carousel-control-next grey-text" href="#carousel-example-1z" role="button"
                                 data-slide="next">
-                                <a class="carousel-control-next grey-text" href="#carousel-example-1z" role="button"
-                                    data-slide="next">
                                     <span aria-hidden="true"><i class="fas fa-angle-right fa-3x"></i></span>
                                     <span class="sr-only">Next</span>
                                 </a>
