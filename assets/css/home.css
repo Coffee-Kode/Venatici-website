@@ -2,6 +2,11 @@
   width: 100%;
 }
 
+.img-carousel {
+  width: 100%;
+  height: 100%;
+  }
+
 .color_icon{
  color: lightseagreen
 }
@@ -21,6 +26,8 @@
   margin-top: 20px;
 }
 
+
+
 #section_about_us{
   padding: 30px 0 30px 0;
 }
@@ -34,7 +41,11 @@
   display: inline-block;
 }
 
-
+.area{
+  height: 100vh;
+  vertical-align: middle;
+  display:table-cell;
+}
 
 
 

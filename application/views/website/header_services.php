@@ -20,7 +20,6 @@
   <link rel="stylesheet" href="assets/lib/MDB-Free-4.14.1/fonts/Roboto-Regular.ttf">
 
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="assets/lib/MDB-Free-4/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/lib/MDB-Free-4.14.1/css/bootstrap.min.css">
 
   <!-- Material Design Bootstrap -->
@@ -30,37 +29,7 @@
   <link rel="stylesheet" href="assets/lib/MDB-Free-4.14.1/css/style.css">
 
   <link rel="stylesheet" href="assets/css/marketing.css">
-
-
-  <style>
-    .gray {
-      background: rgba(0, 0, 0, 0.300);
-    }
-
-    .top-nav-collapse {
-      background-color: rgba(0, 0, 0, 0.800) !important;
-    }
-
-    .bg-img {
-      height: 100vh;
-      background: url('assets/images/img-background.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .page-footer {
-      background-color: #1C2331;
-    }
-
-    .icon-color {
-      color: rgb(29, 202, 202);
-    }
-
-    section {
-      width: 100%;
-      scroll-behavior: smooth;
-    }
-  </style>
+  <link rel="stylesheet" href="assets/css/header.css">
 
 </head>
 
@@ -73,9 +42,8 @@
 
         <!-- Brand -->
         <a class="navbar-brand" href="home">
-          <img src="assets/images/favicon.png" height="30" class="d-inline-block align-top" alt="mdb logo">
-          <strong>Venatici</strong>
-        </a>
+        <img src="assets/images/img-logo.png" height="50" class="d-inline-block align-top" alt="mdb logo">
+      </a>
 
         <!-- Collapse -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

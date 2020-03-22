@@ -1,64 +1,28 @@
-.my-navbar{
-    background: #343a40 ;
-    color: white;
-}
-
-.navbar-nav>li>a{
-    color:gray;
-}
-
-.navbar-nav>li>:hover{
-    border-bottom: 1px solid gray;
-    color: white;
-}
-
-.navbar-brand{
-    color: white;
-}
-.navbar-brand:hover{
-    color: #f0f0f0;
-}
-
 .gray {
-    background: rgba(0, 0, 0, 0.300);
-  }
-
-  .top-nav-collapse {
-    background-color: rgba(0, 0, 0, 0.800) !important;
-  }
-
-
-  .bg-img {
-    height: 100vh;
-    background: url('assets/images/img-background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .page-footer {
-    background-color: #1C2331;
-  }
-
-  .icon-color {
-    color: rgb(29, 202, 202);
-  }
-
-
-  section{
-    width: 100%;
-    scroll-behavior: smooth;
-  }
-
-#topheader .navbar-nav li > a {
-    text-transform: capitalize;
-    color: #333;
-    transition: background-color 0.2s, color 0.2s;
+  background: rgba(0, 0, 0, 0.300);
 }
-#topheader .navbar-nav li > a:hover, #topheader .navbar-nav li > a:focus {
-    background-color: #333;
-    color: #fff;
+
+.top-nav-collapse {
+  background-color: rgba(0, 0, 0, 0.800) !important;
 }
-#topheader .navbar-nav li.active > a {
-    background-color: #333;
-    color: #fff;
+
+.bg-img {
+  height: 100vh;
+  background: url('../images/img-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.page-footer {
+  background-color: #1C2331;
+}
+
+.icon-color {
+  color: rgb(29, 202, 202);
+}
+
+section{
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
