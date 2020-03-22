@@ -23,9 +23,11 @@
     <div class="navbar-dark bg-dark sticky-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="home">
-                <img src="assets/images/ic_venatici.jpg" width="30" height="30" class="d-inline-block align-top mr-2 rounded" alt="">
+                <img src="assets/images/ic_venatici.jpg" width="30" height="30"
+                    class="d-inline-block align-top mr-2 rounded" alt="">
                 Venatici</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -51,7 +53,8 @@
                 <div class="card">
                     <div class="card-header" id="heading1">
                         <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
                                 Inicio
                             </button>
                         </h2>
@@ -67,7 +70,8 @@
                 <div class="card">
                     <div class="card-header" id="heading2">
                         <h2 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2"
+                                aria-expanded="true" aria-controls="collapse2">
                                 Sobre Nosotros
                             </button>
                         </h2>
@@ -88,7 +92,8 @@
                                     <textarea class="form-control" id="vision" rows="3"></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <button type="button" id="btn_about" class="btn btn-success float-right mb-4">Guardar</button>
+                                    <button type="button" id="btn_about"
+                                        class="btn btn-success float-right mb-4">Guardar</button>
                                 </div>
                             </form>
                         </div>
@@ -99,26 +104,148 @@
                 <div class="card">
                     <div class="card-header" id="heading3">
                         <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                                 Servicios > Inicio Emprende
                             </button>
                         </h2>
                     </div>
                     <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
                         <div class="card-body">
-                            <div class="form-group">
-                                <label for="plan_inicia_text">Titulo</label>
-                                <input class="form-control" type="text" id="plan_inicia_text">
+                            <div class="list-group">
+                                <div class="list-group-item">
+                                    <div class="form-group">
+                                        <label for="plan_inicia_text">Titulo</label>
+                                        <input class="form-control" type="text" id="plan_inicia_text">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="plan_inicia_text">Descripción</label>
+                                        <textarea class="form-control" id="vision" rows="3"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="button" class="btn btn-success float-right mb-4">Guardar</button>
+                                    </div>
+                                </div>
+                                <div class="list-group-item">
+                                    <h5 class="mb-1">Planes Inicio Emprende:</h5>
+                                    <div class="form-group">
+                                        <table class="table table-striped table-sm mt-4" id="plan_inicia_table">
+                                            <thead>
+                                                <tr>
+                                                    <th class="col-md-6" scope="col">Descripción</th>
+                                                    <th class="col-md-2" scope="col">Monto</th>
+                                                    <th class="col-md-4" scope="col"></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="col-md-6">Sociedades: Preparación de escrituras y
+                                                        Obtención de rut</td>
+                                                    <td class="col-md-2" align="right">$35.000</td>
+                                                    <td class="col-md-2" align="right">
+                                                        <a href="#"><i class="fas fa-edit"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="col-md-6">Habilitación PYME: Inicio de actividades,
+                                                        Obtención de clave, Instalación de certificado para facturación
+                                                        electrónica, acreditación de domicilio y actividad.</td>
+                                                    <td class="col-md-2" align="right">$50.000</td>
+                                                    <td class="col-md-2" align="right">
+                                                        <a href="#"><i class="fas fa-edit"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="col-md-6">Imagen y logotipo</td>
+                                                    <td class="col-md-2" align="right">$35.000</td>
+                                                    <td class="col-md-2" align="right">
+                                                        <a href="#"><i class="fas fa-edit"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="col-md-6">Registro de marca</td>
+                                                    <td class="col-md-2" align="right">$35.000</td>
+                                                    <td class="col-md-2" align="right">
+                                                        <a href="#"><i class="fas fa-edit"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="col-md-6">Fondos concursables</td>
+                                                    <td class="col-md-2" align="right">$50.000</td>
+                                                    <td class="col-md-2" align="right">
+                                                        <a href="#"><i class="fas fa-edit"></i></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="button" class="btn btn-info float-right mb-4">Nuevo
+                                            Registro</button>
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END CARD SERVICIOS: INICIO EMPRENDE -->
+                <!-- START CARD SERVICIOS: MARKETING -->
+                <div class="card">
+                    <div class="card-header" id="heading4">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                Servicios > Marketing Digital
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+                        <div class="card-body">
+                            ...
+                        </div>
+                    </div>
+                </div>
+                <!-- END CARD SERVICIOS: MARKETING -->
+                <!-- START CARD SERVICIOS: PAGINAS WEB -->
+                <div class="card">
+                    <div class="card-header" id="heading5">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                Servicios > Paginas Web
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapse5" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+                        <div class="card-body">
+                            ...
+                        </div>
+                    </div>
+                </div>
+                <!-- END CARD SERVICIOS: PAGINAS WEB -->
+            </div>
+        </div>
+        <!-- END FORM AUTOADMIN -->
 
-                            <div class="form-group">
-                                <label for="plan_inicia_text">Descripción</label>
-                                <textarea class="form-control" id="vision" rows="3">Queremos ser la mejor opción para aquellos emprendedores y empresarios que necesitan una mejora en marketing y posicionamiento a nivel nacional</textarea>
-                            </div>
-                            <div class="form-group">
-                                <button type="button" class="btn btn-success float-right mb-4">Guardar</button>
-                            </div>
-                            <!--
+        <!-- START JS Dependencies -->
+        <script src="assets/lib/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+        <script src="assets/lib/popper-1.12.9/popper.min.js"></script>
+        <script src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+        <script src="assets/js/autoadmin.js"></script>
+        <!-- END JS Dependencies -->
+
+</body>
+
+</html>
+
+<!--
+                           
+                            
+
+
+
+
+
                             <div class="form-group">
                                 <div class="row mt-4">
                                     <div class="col-md-8">
@@ -135,108 +262,3 @@
                                 </div>
                             </div>
                         -->
-                            <div class="form-group">
-                                <table class="table table-striped table-sm mt-4" id="plan_inicia_table">
-                                    <thead>
-                                        <tr>
-                                            <th class="col-md-6" scope="col">Descripción</th>
-                                            <th class="col-md-2" scope="col">Monto</th>
-                                            <th class="col-md-4" scope="col"></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="col-md-6">Sociedades: Preparación de escrituras y
-                                                Obtención de rut</td>
-                                            <td class="col-md-2" align="right">$35.000</td>
-                                            <td class="col-md-2" align="right">
-                                                <a href="#"><i class="fas fa-edit"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="col-md-6">Habilitación PYME: Inicio de actividades,
-                                                Obtención de clave, Instalación de certificado para facturación
-                                                electrónica, acreditación de domicilio y actividad.</td>
-                                            <td class="col-md-2" align="right">$50.000</td>
-                                            <td class="col-md-2" align="right">
-                                                <a href="#"><i class="fas fa-edit"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="col-md-6">Imagen y logotipo</td>
-                                            <td class="col-md-2" align="right">$35.000</td>
-                                            <td class="col-md-2" align="right">
-                                                <a href="#"><i class="fas fa-edit"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="col-md-6">Registro de marca</td>
-                                            <td class="col-md-2" align="right">$35.000</td>
-                                            <td class="col-md-2" align="right">
-                                                <a href="#"><i class="fas fa-edit"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="col-md-6">Fondos concursables</td>
-                                            <td class="col-md-2" align="right">$50.000</td>
-                                            <td class="col-md-2" align="right">
-                                                <a href="#"><i class="fas fa-edit"></i></a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="form-group">
-                                <button type="button" class="btn btn-info float-right mb-4">Nuevo Registro</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END CARD SERVICIOS: INICIO EMPRENDE -->
-                <!-- START CARD SERVICIOS: MARKETING -->
-                <div class="card">
-                    <div class="card-header" id="heading4">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                Servicios > Marketing Digital
-                            </button>
-                        </h2>
-                    </div>
-                    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
-                        <div class="card-body">
-                            ...
-                        </div>
-                    </div>
-                </div>
-                <!-- END CARD SERVICIOS: MARKETING -->
-                <!-- START CARD SERVICIOS: PAGINAS WEB -->
-                <div class="card">
-                    <div class="card-header" id="heading5">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                Servicios > Paginas Web
-                            </button>
-                        </h2>
-                    </div>
-                    <div id="collapse5" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
-                        <div class="card-body">
-                            ...
-                        </div>
-                    </div>
-                </div>
-                <!-- END CARD SERVICIOS: PAGINAS WEB -->
-            </div>
-        </div>
-    </div>
-    <!-- END FORM AUTOADMIN -->
-
-    <!-- START JS Dependencies -->
-    <script src="assets/lib/jquery-3.4.1/jquery-3.4.1.min.js"></script>
-    <script src="assets/lib/popper-1.12.9/popper.min.js"></script>
-    <script src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
-    <script src="assets/js/autoadmin.js"></script>
-    <!-- END JS Dependencies -->
-
-</body>
-
-</html>
