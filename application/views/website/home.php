@@ -1,5 +1,6 @@
 <!-- Full Page Intro -->
 <div id="home" class="view full-page-intro bg-img">
+
     <!-- Mask & flexbox options-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
 
@@ -119,12 +120,11 @@
             <div class="container">
                 <div class="row">
                     <div>
-                        
+
                     </div>
                 </div>
 
             </div>
-
 
         </section>
         <!-- Finish Section: Programs and calls-->
