@@ -5,7 +5,7 @@
         <div class="row">
 
                         <!-- Start Card Basic-->
-                        <div class="col-md-3">
+                        <div class="col-lg-3">
                             <div class="single-price">
                                 <div class="price-head">
                                     <h3>Básico</h3>
@@ -35,7 +35,7 @@
                         <!-- Finish Card-->
 
             <!-- Start Card Medio-->
-            <div class="col-md-3">
+            <div class="col-lg-3">
                 <div class="single-price">
                     <div class="price-head">
                         <h3>Medio</h3>
@@ -67,7 +67,7 @@
             <!-- Finish Card-->
 
             <!-- Start Card Advanced-->
-            <div class="col-md-3">
+            <div class="col-lg-3">
                 <div class="single-price">
                     <div class="price-head">
                         <h3>Avanzado</h3>
@@ -97,7 +97,7 @@
             <!-- Finish Card-->
 
             <!-- Start Card Full Advanced-->
-            <div class="col-md-3">
+            <div class="col-lg-3">
                 <div class="single-price">
                     <div class="price-head">
                         <h3>Full Avanzado</h3>
@@ -125,7 +125,6 @@
                 </div>
             </div>
             <!-- Finish Card-->
-
         </div>
     </div>
 </section>
