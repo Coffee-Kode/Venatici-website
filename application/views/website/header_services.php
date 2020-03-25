@@ -28,7 +28,7 @@
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="assets/lib/MDB-Free-4.14.1/css/style.css">
 
-  <link rel="stylesheet" href="assets/css/marketing.css">
+  <link rel="stylesheet" href="assets/css/price-services.css">
   <link rel="stylesheet" href="assets/css/header.css">
 
 </head>
@@ -37,16 +37,17 @@
 
   <!-- Navbar -->
   <div id="topheader">
-    <nav class="navbar fixed-top navbar-expand-md navbar-dark gray scrolling-navbar">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
       <div class="container">
 
         <!-- Brand -->
-        <a class="navbar-brand" href="home">
-        <img src="assets/images/img-logo.png" height="50" class="d-inline-block align-top" alt="mdb logo">
-      </a>
+        <a class="" href="home">
+          <img src="assets/images/favicon.png" height="30" class="d-inline-block align-top" alt="mdb logo">
+        </a>
 
         <!-- Collapse -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 

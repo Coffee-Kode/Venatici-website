@@ -1,7 +1,7 @@
 
-<section id="price">
+<section>
     <div class="container">
-        <h2 class="h2 display-4 text-center pt-4 mt-3 mb-4">Pagina Web</h2>
+        <h1 class="h1 text-center pt-5 mt-4 mb-4">Pagina Web</h1>
         <div class="row">
 
                         <!-- Start Card Basic-->

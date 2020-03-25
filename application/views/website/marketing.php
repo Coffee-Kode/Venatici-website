@@ -1,5 +1,11 @@
+<section class="area d-flex">
+
+
+ 
  <div class="container mb-4">
-    <h2 class="h2 display-4 text-center mb-4" style="padding-top: 4rem">Marketing Digital</h2>
+
+    <h2 class="h2 text-center" style="padding-top: 4rem">Marketing Digital</h2>
+
     <div class="row">
 
       <!-- Start Card-->
@@ -18,7 +24,7 @@
               <li><i class="fa fa-times-circle"></i>Google Ads</li>
               <li><i class="fa fa-times-circle"></i>Fotografia</li>
               <li><i class="fa fa-times-circle"></i>Seo</li>
-              <li><i class="fa fa-times-circle"></i>Community Manager</li>
+              <li class="pb-2"><i class="fa fa-times-circle"></i>Community Manager</li>
             </ul>
           </div>
         </div>
@@ -41,7 +47,7 @@
               <li><i class="fa fa-check-circle"></i>Google Ads</li>
               <li><i class="fa fa-check-circle"></i>Fotografia</li>
               <li><i class="fa fa-times-circle"></i>Seo</li>
-              <li><i class="fa fa-times-circle"></i>Community Manager</li>
+              <li class="pb-2"><i class="fa fa-times-circle"></i>Community Manager</li>
             </ul>
           </div>
         </div>
@@ -64,7 +70,7 @@
               <li><i class="fa fa-check-circle"></i>Google Ads</li>
               <li><i class="fa fa-check-circle"></i>Fotografia</li>
               <li><i class="fa fa-check-circle"></i>Seo</li>
-              <li><i class="fa fa-check-circle"></i>Community Manager</li>
+              <li class="pb-2"><i class="fa fa-check-circle"></i>Community Manager</li>
             </ul>
           </div>
         </div>
@@ -73,3 +79,4 @@
 
     </div>
   </div>
+</section> 

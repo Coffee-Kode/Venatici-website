@@ -26,7 +26,6 @@
   <link rel="stylesheet" href="assets/lib/MDB-Free-4.14.1/css/mdb.min.css">
 
   <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="assets/css/marketing.css">
   <link rel="stylesheet" href="assets/css/home.css">
   <link rel="stylesheet" href="assets/css/header.css">
   
@@ -41,19 +40,22 @@
 
       <!-- Brand -->
       <a class="navbar-brand" href="#home">
-        <img src="assets/images/img-logo.png" height="50" class="d-inline-block align-top" alt="mdb logo">
+        <img src="assets/images/favicon.png" height="30" class="d-inline-block align-top" alt="mdb logo">
+        <strong>Venatici</strong>
       </a>
+      <!-- Brand -->
 
       <!-- Collapse -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+      <!-- Collapse -->
+      
       <!-- Links -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <!-- Left -->
+        <!-- Rigth -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#home">Inicio
@@ -73,6 +75,8 @@
             <a class="nav-link" href="#section-contact">Contacto</a>
           </li>
         </ul>
+        <!-- Rigth -->
+
       </div>
     </div>
   </nav>

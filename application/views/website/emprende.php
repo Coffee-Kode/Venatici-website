@@ -1,7 +1,7 @@
 
-<section id="price">
+<section class="area">
   <div class="container">
-    <h2 class="h2 display-4 text-center pt-4 mb-4">Inicio Emprende</h2>
+    <h1 class="h1 text-center">Inicio Emprende</h1>
     <div class="row">
 
       <!-- Start Card-->
@@ -27,7 +27,7 @@
       <div class="col-md-3">
         <div class="single-price">
           <div class="price-head">
-            <h3>Plan 2</h3>
+            <h4>Plan 2</h3>
             <p>$50.000 <!--<pan>anual</span>--></p>
           </div>
 

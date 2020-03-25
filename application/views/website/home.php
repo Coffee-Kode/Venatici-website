@@ -9,11 +9,16 @@
             <div class="row wow fadeIn">
                 <!--Grid column-->
                 <div class="col-md-6 white-text text-center text-md-left pt-5">
+
+                    <img src="assets/images/img-logo.png" height="100" class="d-inline-block align-top" alt="mdb logo">
+
+                    <!--
                     <h1 class="display-4 font-weight-bold">Venatici</h1>
 
                     <hr class="hr-light">
 
                     <p><strong>Asesoría Comercial y Publicidad</strong></p>
+                    -->
                 </div>
                 <!--Grid column-->
             </div>
@@ -28,6 +33,7 @@
 <!--Main layout-->
 <main>
     <div class="container">
+
         <!-- Start Section: About Us -->
         <section id="section-about-us" class="area">
             <h1 id="title_about_us" class="h1 text-center">Sobre nosotros</h1>
@@ -91,48 +97,64 @@
 
         <hr>
 
+        <!-- Start Section: Programs and calls-->
+        <section id="section-programs-calls" class="area">
 
- 
+
             <div class="container ">
                 <div class="row justify-content-center">
-
-                    <div class="col-md-10 ">
+                    <div class="col-md-10">
+                        <h1 id="title_services" class="h1 text-center">Programas y Convocatorias</h1>
+                        <p id="text" class="grey-text text-center mb-2">Si buscas emprender o mejorar tu empresa, te
+                            asesoramos en la búsqueda y postulación de fondos concursables públicos o privados. Si lo
+                            tuyo es el desarrollo social te ayudamos a encontrar la forma de financiar tus proyectos.
+                        </p>
+                    </div>
+                    <div class="col-12">
                         <!-- Start Section: Programs and calls-->
-                        <div id="carousel-example-1z" class="carousel slide carousel-fade " data-ride="carousel">
-                            <section id="section-programs-calls" class="area">
-                            <h1 id="title_services" class="h1 text-center">Programas y Convocatorias</h1>
+                        <div id="carousel-1" class="carousel slide carousel-fade " data-ride="carousel">
+                            <!--Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-1" data-slide-to="1"></li>
+                                <li data-target="#carousel-1" data-slide-to="2"></li>
+                            </ol>
+                            <!--/.Indicators-->
 
                             <!--Slides-->
-                            <div class="carousel-inner mt-3" role="listbox">
+                            <div class="carousel-inner mt-3 z-depth-5" role="listbox">
                                 <!--First slide-->
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="assets/images/img-carousel-0.jpg" alt="First slide">
+                                    <img class="d-block w-100 rounded" src="assets/images/img-carousel-0.jpg"
+                                        alt="First slide">
                                 </div>
                                 <!--/First slide-->
                                 <!--Second slide-->
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="assets/images/img-carousel-1.png" alt="Second slide">
+                                    <img class="d-block w-100 rounded" src="assets/images/img-carousel-1.png"
+                                        alt="Second slide">
                                 </div>
                                 <!--/Second slide-->
                                 <!--Third slide-->
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="assets/images/img-carousel-2.png" alt="Third slide">
+                                    <img class="d-block w-100 rounded" src="assets/images/img-carousel-2.png"
+                                        alt="Third slide">
                                 </div>
                                 <!--/Third slide-->
                             </div>
                             <!--/.Slides-->
                             <!--Controls-->
-                            <a class="carousel-control-prev grey-text" href="#carousel-example-1z" role="button"
+                            <a class="carousel-control-prev grey-text" href="#carousel-1" role="button"
                                 data-slide="prev">
                                 <span aria-hidden="true"><i class="fas fa-angle-left fa-3x"></i></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next grey-text" href="#carousel-example-1z" role="button"
+                            <a class="carousel-control-next grey-text" href="#carousel-1" role="button"
                                 data-slide="next">
-                                    <span aria-hidden="true"><i class="fas fa-angle-right fa-3x"></i></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                                <!--/.Controls-->
+                                <span aria-hidden="true"><i class="fas fa-angle-right fa-3x"></i></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            <!--/.Controls-->
                         </div>
                     </div>
                 </div>

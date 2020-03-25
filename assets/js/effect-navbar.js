@@ -13,42 +13,44 @@ $(window).scroll(function (event) {
 });
 */
 
-$("a").on('click', function(event) {
-    if (this.hash !== "") {
+//Function event click move scroll top id
+$("a").on('click', function (event) {
 
-      event.preventDefault();
+  if (this.hash !== "" && this.hash !== "#carousel-1") {
 
-      var hash = this.hash;
+    event.preventDefault();
 
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 'slow', function(){
- 
-        window.location.hash = hash;
+    var hash = this.hash;
 
-      });
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 'slow', function () {
 
-    } 
-  });
+      window.location.hash = hash;
 
-
-
-  function effect_text(id){
-    //Start Effect Code
-var text = document.getElementById(id);
-var newDom = '';
-var animationDelay = 6;
-
-for (let i = 0; i < text.innerText.length; i++) {
-    newDom += '<span class="char">' + (text.innerText[i] == ' ' ? '&nbsp;' : text.innerText[i]) + '</span>';
-}
-
-text.innerHTML = newDom;
-var length = text.children.length;
-
-for (let i = 0; i < length; i++) {
-    text.children[i].style['animation-delay'] = animationDelay * i + 'ms';
-}
-//Finish Effect Code
-
+    });
   }
+});
+
+
+//Effect text
+
+function effect_text(id) {
+  //Start Effect Code
+  var text = document.getElementById(id);
+  var newDom = '';
+  var animationDelay = 6;
+
+  for (let i = 0; i < text.innerText.length; i++) {
+    newDom += '<span class="char">' + (text.innerText[i] == ' ' ? '&nbsp;' : text.innerText[i]) + '</span>';
+  }
+
+  text.innerHTML = newDom;
+  var length = text.children.length;
+
+  for (let i = 0; i < length; i++) {
+    text.children[i].style['animation-delay'] = animationDelay * i + 'ms';
+  }
+  //Finish Effect Code
+
+}
