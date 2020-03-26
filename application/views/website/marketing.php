@@ -10,7 +10,7 @@
 
       <!-- Start Card-->
       <div class="col-md-4">
-        <div class="single-price">
+        <div class="single-price border border-light">
           <div class="price-head">
             <h3>Básico</h3>
             <p>$100.000 <!--<pan>anual</span>--></p>
@@ -33,7 +33,7 @@
 
       <!-- Start Card-->
       <div class="col-md-4">
-        <div class="single-price">
+        <div class="single-price border border-light">
           <div class="price-head">
             <h3>Medio</h3>
             <p>$200.000 <!--<pan>anual</span>--></p>
@@ -56,7 +56,7 @@
 
       <!-- Start Card-->
       <div class="col-md-4">
-        <div class="single-price">
+        <div class="single-price border border-light">
           <div class="price-head">
             <h3>Full</h3>
             <p>$300.000 <!--<pan>anual</span>--></p>

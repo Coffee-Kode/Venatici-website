@@ -1,45 +1,48 @@
-
 <section>
     <div class="container">
         <h1 class="h1 text-center pt-5 mt-4 mb-4">Pagina Web</h1>
         <div class="row">
 
-                        <!-- Start Card Basic-->
-                        <div class="col-lg-3">
-                            <div class="single-price">
-                                <div class="price-head">
-                                    <h3>Básico</h3>
-                                    <p><pan>desde </span>$100.000 </p>
-                                </div>
-            
-                                <div class="price-content">
-                                    <ul class="padding-none">
-                                        <li><i class="fa fa-check-circle"></i>One Page - hasta 4 Secciones</li>
-                                        <li><i class="fa fa-check-circle"></i>1 Banners Principales Animados</li>
-                                        <li><i class="fa fa-check-circle"></i>Adaptable a Cualquier Dispositivo</li>
-                                        <li><i class="fa fa-check-circle"></i>Enlace a Redes Sociales</li>
-                                        <li><i class="fa fa-check-circle"></i>Formulario de Contacto</li>
-                                        <li><i class="fa fa-check-circle"></i>Ubicación en Google Maps</li>
-                                        <li><i class="fa fa-check-circle"></i>Sitio Optimizado SEO para Google</li>
-                                        <li><i class="fa fa-times-circle"></i>Carrito de Compras Incluido</li>
-                                        <li><i class="fa fa-times-circle"></i>Configuración de 20 productos</li>
-                                        <li><i class="fa fa-times-circle"></i>Habilitación de Chat vía Web</li>
-                                        <li><i class="fa fa-times-circle"></i>Capacitación Ingreso Contenido</li>
-                                        <li><i class="fa fa-times-circle"></i>Galería de Imágenes</li>
-                                        <li><i class="fa fa-times-circle"></i>Autoadministrable</li>
-                                        <li><i class="fa fa-times-circle"></i>Mapa del Sitio Web</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Finish Card-->
+            <!-- Start Card Basic-->
+            <div class="col-lg-3">
+                <div class="single-price border border-light">
+                    <div class="price-head">
+                        <h3>Básico</h3>
+                        <p>
+                            <pan>desde </span>$100.000
+                        </p>
+                    </div>
+
+                    <div class="price-content">
+                        <ul class="padding-none">
+                            <li><i class="fa fa-check-circle"></i>One Page - hasta 4 Secciones</li>
+                            <li><i class="fa fa-check-circle"></i>1 Banners Principales Animados</li>
+                            <li><i class="fa fa-check-circle"></i>Adaptable a Cualquier Dispositivo</li>
+                            <li><i class="fa fa-check-circle"></i>Enlace a Redes Sociales</li>
+                            <li><i class="fa fa-check-circle"></i>Formulario de Contacto</li>
+                            <li><i class="fa fa-check-circle"></i>Ubicación en Google Maps</li>
+                            <li><i class="fa fa-check-circle"></i>Sitio Optimizado SEO para Google</li>
+                            <li><i class="fa fa-times-circle"></i>Carrito de Compras Incluido</li>
+                            <li><i class="fa fa-times-circle"></i>Configuración de 20 productos</li>
+                            <li><i class="fa fa-times-circle"></i>Habilitación de Chat vía Web</li>
+                            <li><i class="fa fa-times-circle"></i>Capacitación Ingreso Contenido</li>
+                            <li><i class="fa fa-times-circle"></i>Galería de Imágenes</li>
+                            <li><i class="fa fa-times-circle"></i>Autoadministrable</li>
+                            <li class="pb-2"><i class="fa fa-times-circle"></i>Mapa del Sitio Web</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Finish Card-->
 
             <!-- Start Card Medio-->
             <div class="col-lg-3">
-                <div class="single-price">
+                <div class="single-price border border-light">
                     <div class="price-head">
                         <h3>Medio</h3>
-                        <p><pan>desde </span>$200.000 </p>
+                        <p>
+                            <pan>desde </span>$200.000
+                        </p>
                     </div>
 
                     <div class="price-content">
@@ -57,7 +60,7 @@
                             <li><i class="fa fa-times-circle"></i>Carrito de Compras Incluido</li>
                             <li><i class="fa fa-times-circle"></i>Configuración de 20 productos</li>
                             <li><i class="fa fa-times-circle"></i>Habilitación de Chat vía Web</li>
-                            <li><i class="fa fa-times-circle"></i>Capacitación Ingreso Contenido</li>
+                            <li class="pb-2"><i class="fa fa-times-circle"></i>Capacitación Ingreso Contenido</li>
 
 
                         </ul>
@@ -68,10 +71,12 @@
 
             <!-- Start Card Advanced-->
             <div class="col-lg-3">
-                <div class="single-price">
+                <div class="single-price border border-light">
                     <div class="price-head">
                         <h3>Avanzado</h3>
-                        <p><pan>desde </span>$270.000</p>
+                        <p>
+                            <pan>desde </span>$270.000
+                        </p>
                     </div>
 
                     <div class="price-content">
@@ -89,7 +94,7 @@
                             <li><i class="fa fa-check-circle"></i>Sitio Optimizado SEO para Google</li>
                             <li><i class="fa fa-times-circle"></i>Carrito de Compras Incluido</li>
                             <li><i class="fa fa-times-circle"></i>Configuración de 20 productos</li>
-                            <li><i class="fa fa-times-circle"></i>Habilitación de Chat vía Web</li>
+                            <li class="pb-2"><i class="fa fa-times-circle"></i>Habilitación de Chat vía Web</li>
                         </ul>
                     </div>
                 </div>
@@ -98,10 +103,12 @@
 
             <!-- Start Card Full Advanced-->
             <div class="col-lg-3">
-                <div class="single-price">
+                <div class="single-price border border-light">
                     <div class="price-head">
                         <h3>Full Avanzado</h3>
-                        <p><pan>desde </span>$360.000</p>
+                        <p>
+                            <pan>desde </span>$360.000
+                        </p>
                     </div>
 
                     <div class="price-content">
@@ -119,7 +126,7 @@
                             <li><i class="fa fa-check-circle"></i>Capacitación Ingreso Contenido</li>
                             <li><i class="fa fa-check-circle"></i>Ubicación en Google Maps</li>
                             <li><i class="fa fa-check-circle"></i>Mapa del Sitio Web</li>
-                            <li><i class="fa fa-check-circle"></i>Sitio Optimizado SEO para Google</li>
+                            <li class="pb-2"><i class="fa fa-check-circle"></i>Sitio Optimizado SEO para Google</li>
                         </ul>
                     </div>
                 </div>

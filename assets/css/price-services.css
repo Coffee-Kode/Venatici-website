@@ -49,8 +49,9 @@
 }
 .price-content{
     display:block;
-    padding: 0px 10px 0px 10px
+    padding: 0px 10px 0px 10px;
 }
+
 ul{
     padding-left: inherit;
     padding-right: inherit;

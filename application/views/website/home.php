@@ -131,13 +131,13 @@
                                 <!--/First slide-->
                                 <!--Second slide-->
                                 <div class="carousel-item">
-                                    <img class="d-block w-100 rounded" src="assets/images/img-carousel-1.png"
+                                    <img class="d-block w-100 rounded" src="assets/images/img-carousel-1.jpg"
                                         alt="Second slide">
                                 </div>
                                 <!--/Second slide-->
                                 <!--Third slide-->
                                 <div class="carousel-item">
-                                    <img class="d-block w-100 rounded" src="assets/images/img-carousel-2.png"
+                                    <img class="d-block w-100 rounded" src="assets/images/img-carousel-2.jpg"
                                         alt="Third slide">
                                 </div>
                                 <!--/Third slide-->
@@ -183,7 +183,7 @@
                         <p id="text" class="grey-text">Formalizamos tu empresa con la preparación de escritura y
                             obtención de Rut, además de habilitarla ante el servicio de impuestos internos junto con
                             la instalación de certificado digital para facturas y boletas.</p>
-                        <a class="btn btn-primary btn-sm mb-4" href="emprende">
+                        <a class="btn btn-primary btn-sm mb-4 rounded-pill btn-outline-primary" href="emprende">
                             <h6 class="pt-2">más información</h6>
                         </a>
 
@@ -198,7 +198,7 @@
                         <p id="text2" class="grey-text">Con esta herramienta posicionaremos su marca en redes
                             sociales y en la web. Por medio de un servicio comunicacional integral desde la creación
                             de su sitio hasta la gestión de sus redes sociales y el diseño de campañas</p>
-                        <a class="btn btn-primary btn-sm mb-4" href="marketing">
+                        <a class="btn btn-primary btn-sm mb-4 rounded-pill btn-outline-primary" href="marketing">
                             <h6 class="pt-2">más información</h6>
                         </a>
                     </div>
@@ -214,7 +214,7 @@
                             Es el momento de tener tu propia página web. De calidad,
                             orientada a tu público objetivo, con un diseño atractivo y
                             con la información que tus clientes valoren.</p>
-                        <a class="btn btn-primary btn-sm" href="develop_web">
+                        <a class="btn btn-primary btn-sm rounded-pill btn-outline-primary" href="develop_web">
                             <h6 class="pt-2">más información</h6>
                         </a>
                     </div>
