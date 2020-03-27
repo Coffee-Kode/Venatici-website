@@ -41,7 +41,7 @@
             <div class="row wow fadeIn mt-3">
 
                 <!-- Start Column img about-us -->
-                <div class="col-md-4 ">
+                <div class="d-none d-md-block col-md-4 ">
                     <img src="assets/images/img-about-us.jpg" class="rounded img-fluid z-depth-1-half mb-4"
                         alt="responsive">
                 </div>
