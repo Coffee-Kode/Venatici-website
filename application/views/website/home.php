@@ -255,19 +255,19 @@
                             <div class="md-form">
                                 <i class="fas fa-user prefix grey-text"></i>
                                 <input type="text" id="form-name" class="form-control">
-                                <label for="form-name">Tu nombre</label>
+                                <label for="form-name">Tú nombre</label>
                             </div>
 
                             <div class="md-form">
                                 <i class="fas fa-envelope prefix grey-text"></i>
                                 <input type="text" id="form-email" class="form-control">
-                                <label for="form-email">Ru correo electrónico</label>
+                                <label for="form-email">Tú correo electrónico</label>
                             </div>
 
                             <div class="md-form">
                                 <i class="fas fa-tag prefix grey-text"></i>
                                 <input type="text" id="form-Subject" class="form-control">
-                                <label for="form-Subject">Titulo</label>
+                                <label for="form-Subject">Título</label>
                             </div>
 
                             <div class="md-form">
