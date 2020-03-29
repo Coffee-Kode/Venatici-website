@@ -35,7 +35,7 @@
     <div class="container">
 
         <!-- Start Section: About Us -->
-        <section id="section-about-us" class="area">
+        <section id="section-about-us" class="area pt-5">
             <h1 id="title_about_us" class="h1 text-center">Sobre nosotros</h1>
             <!--Grid row-->
             <div class="row wow fadeIn mt-3">
@@ -165,7 +165,7 @@
         <hr>
 
         <!--Start Section: Services-->
-        <section id="section-services" class="area">
+        <section id="section-services" class="area pt-5">
 
             <div class="container">
                 <div class="text-center">
@@ -225,12 +225,10 @@
 
         <hr>
 
-        <section id="section-contact" class="pb-5 mb-4">
-
-        </section>
+        <section id="section-contact" class="pb-5 mb-4"> </section>
 
         <!--Section: Contact v.1-->
-        <section id="section-contact" class="section pb-5 h-100 align-content-center">
+        <section  class="section pb-5 h-100 align-content-center">
 
             <!--Section heading-->
             <div class="text-center pb-5">

@@ -1,6 +1,6 @@
-<section class="area">
-  <div class="container">
-    <h1 class="h1 text-center">Inicio Emprende</h1>
+<section class="py-5 ">
+  <div class="container mb-4">
+    <h1 class="h1 text-center mt-5">Inicio Emprende</h1>
     <div class="row">
 
       <!-- Start Card-->

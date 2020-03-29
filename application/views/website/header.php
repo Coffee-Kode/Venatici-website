@@ -28,7 +28,7 @@
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="assets/css/home.css">
   <link rel="stylesheet" href="assets/css/header.css">
-  
+
 
 </head>
 
@@ -51,28 +51,28 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Collapse -->
-      
+
       <!-- Links -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
         <!-- Rigth -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#home">Inicio
+            <a class="nav-link" href="#home" data-toggle="collapse" data-target=".navbar-collapse.show">Inicio
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#section-about-us">Sobre nosotros</a>
+            <a class="nav-link" href="#section-about-us" data-toggle="collapse" data-target=".navbar-collapse.show">Sobre nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#section-programs-calls">Programas y convocatorias</a>
+            <a class="nav-link" href="#section-programs-calls" data-toggle="collapse" data-target=".navbar-collapse.show">Programas y convocatorias</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#section-services">Servicios</a>
+            <a class="nav-link" href="#section-services" data-toggle="collapse" data-target=".navbar-collapse.show">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#section-contact">Contacto</a>
+            <a class="nav-link" href="#section-contact" data-toggle="collapse" data-target=".navbar-collapse.show">Contacto</a>
           </li>
         </ul>
         <!-- Rigth -->

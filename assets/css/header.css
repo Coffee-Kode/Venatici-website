@@ -26,3 +26,12 @@ section{
   scroll-behavior: smooth;
 }
 
+.btn {
+  transition-duration: 0.4s !important;
+}
+
+.btn:hover {
+  background-color: royalblue !important;
+  color: white !important;
+}
+

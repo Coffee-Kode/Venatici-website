@@ -27,7 +27,6 @@
 
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="assets/lib/MDB-Free-4.14.1/css/style.css">
-
   <link rel="stylesheet" href="assets/css/price-services.css">
   <link rel="stylesheet" href="assets/css/header.css">
 
@@ -41,8 +40,9 @@
       <div class="container">
 
         <!-- Brand -->
-        <a class="" href="home">
+        <a class="navbar-brand" href="home">
           <img src="assets/images/favicon.png" height="30" class="d-inline-block align-top" alt="mdb logo">
+          <strong>Venatici</strong>
         </a>
 
         <!-- Collapse -->

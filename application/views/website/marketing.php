@@ -1,10 +1,8 @@
-<section class="area d-flex">
+<section class="py-5">
 
-
- 
  <div class="container mb-4">
 
-    <h2 class="h2 text-center" style="padding-top: 4rem">Marketing Digital</h2>
+    <h2 class="h2 text-center py-4">Marketing Digital</h2>
 
     <div class="row">
 
