@@ -223,6 +223,111 @@
         </section>
         <!-- Finish Section: Service -->
 
+        <hr>
+
+        <section id="section-contact" class="pb-5 mb-4">
+
+        </section>
+
+        <!--Section: Contact v.1-->
+        <section id="section-contact" class="section pb-5 h-100 align-content-center">
+
+            <!--Section heading-->
+            <div class="text-center pb-5">
+                <h1 id="title_services" class="h1 text-center">Contáctanos</h1>
+            </div>
+
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-lg-5 mb-4">
+
+                    <!--Form with header-->
+                    <div class="card">
+
+                        <div class="card-body">
+                            <!--Header-->
+                            <div class="form-header bg-primary">
+                                <h3><i class="fas fa-envelope"></i> Escríbenos</h3>
+                            </div>
+
+                            <!--Body-->
+                            <div class="md-form">
+                                <i class="fas fa-user prefix grey-text"></i>
+                                <input type="text" id="form-name" class="form-control">
+                                <label for="form-name">Tu nombre</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fas fa-envelope prefix grey-text"></i>
+                                <input type="text" id="form-email" class="form-control">
+                                <label for="form-email">Ru correo electrónico</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fas fa-tag prefix grey-text"></i>
+                                <input type="text" id="form-Subject" class="form-control">
+                                <label for="form-Subject">Titulo</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fas fa-pencil-alt prefix grey-text"></i>
+                                <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                                <label for="form-text">Mensaje</label>
+                            </div>
+
+                            <div class="text-center mt-4">
+                                <button class="btn btn-outline-primary rounded-pill">Enviar</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!--Form with header-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-7">
+
+                    <!--Google map-->
+                    <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+                        <iframe src="https://maps.google.com/maps?q=-35.4266305,-71.6661153&ie=UTF8&t=&z=15&iwloc=A&output=embed"
+                            frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+
+                    <br>
+                    <!--Buttons-->
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Talca</p>
+                            <p>Chile</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <i class="fas fa-phone"></i>
+                            <p>+56 973586517</p>
+                            <p>+56 999111915</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <i class="fas fa-envelope"></i>
+                            <p>venatici.asesorias@gmail.com</p>
+                        
+                        </div>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+
+        </section>
+        <!--Section: Contact v.1-->
+
+
     </div>
 </main>
 <!--Main layout-->
