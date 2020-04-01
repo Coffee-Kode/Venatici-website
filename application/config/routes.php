@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 $route['default_controller'] = 'website_ctrl';
 
@@ -18,7 +18,9 @@ $route['logout'] = 'private_ctrl/logout';
 
 // autoadmin routes
 $route['get_about'] = 'private_ctrl/get_about';
-$route['save_about'] = 'private_ctrl/save_about';
+$route['get_services'] = 'private_ctrl/get_services';
+$route['get_plans'] = 'private_ctrl/get_plans';
+$route['get_details'] = 'private_ctrl/get_details';
 
 //default routes
 $route['404_override'] = '';

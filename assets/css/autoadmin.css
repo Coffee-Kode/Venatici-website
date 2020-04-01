@@ -1,3 +1,29 @@
-.fa-edit{
-    color:gold;
+.table tr {
+    cursor: pointer;
+}
+
+.hiddenRow {
+    padding: 0 4px !important;
+    font-size: 15px;
+}
+
+.fa-times {
+    color: tomato;
+}
+
+.fa-pencil-alt {
+    color: orange;
+}
+
+.fa-plus {
+    color:yellowgreen;
+}
+
+.fa-edit {
+    color: orange;
+}
+
+.fa-plus-circle {
+    color: #DF691A;
+border-radius: 10rem;
 }
