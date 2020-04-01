@@ -2,11 +2,11 @@ body {
     min-height: 100vh;
     position: relative;
     margin: 0;
-    padding-bottom: 100px; 
   }
   
   footer {
-    position: absolute;
+    background-color: black;
+    position: inherit;
     bottom: 0;
     width: 100%;
   }
@@ -28,4 +28,3 @@ body {
     color: white;
     text-decoration: none;
   }
-  

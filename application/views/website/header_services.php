@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="assets/lib/MDB-Free-4.14.1/css/style.css">
   <link rel="stylesheet" href="assets/css/price-services.css">
   <link rel="stylesheet" href="assets/css/header.css">
-
+  <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 
 <body>
