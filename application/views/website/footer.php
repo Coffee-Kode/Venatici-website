@@ -1,5 +1,5 @@
 <!--Footer-->
-<footer id="section-footer" class="page-footer font-small wow fadeIn pt-3">
+<footer id="section-footer" class="bg-dark font-small wow fadeIn pt-3">
 
   <!-- Start Contact-->
   <div class="container">

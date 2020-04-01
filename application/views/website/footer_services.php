@@ -1,17 +1,17 @@
 <!--Footer-->
-<footer id="section-contact" class="page-footer font-small wow fadeIn pt-3">
+<footer id="section-footer" class="sticky-bottom page-footer bg-dark font-small wow fadeIn pt-3">
 
   <!-- Start Contact-->
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-lg-4">
         <a href="home">
           <img src="assets/images/img-logo.png" height="90" class="d-inline-block align-top"
             alt="mdb logo">
         </a>
 
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4">
         <h3 class="h3">Contacto</h3>
         <hr class="hr-light">
         <p><i class="fas fa-map-marker-alt mr-3"></i> Talca</p>
@@ -19,7 +19,7 @@
         <p><i class="fas fa-envelope mr-3"></i> Correo: <a
             href="mailto:venatici.asesorias@gmail.com">venatici.asesorias@gmail.com</a></p>
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4">
         <h3 class="h3">Siguenos</h3>
         <hr class="hr-light">
         <a href="https://www.facebook.com/venatici/" target="_blank">
