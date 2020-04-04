@@ -95,16 +95,16 @@ $page_web = "/venatici-website/web"; # en servidor cambiar por "/web"
                   </a>
                 </li>
                 <li class='nav-item'>
-                  <a class='nav-link' href='#section-about-us' data-toggle='collapse' data-target='.navbar-collapse.show'>Sobre nosotros</a>
+                  <a class='nav-link' href='#nosotros' data-toggle='collapse' data-target='.navbar-collapse.show'>Sobre nosotros</a>
                 </li>
                 <li class='nav-item'>
-                  <a class='nav-link' href='#section-programs-calls' data-toggle='collapse' data-target='.navbar-collapse.show'>Programas y convocatorias</a>
+                  <a class='nav-link' href='#programas' data-toggle='collapse' data-target='.navbar-collapse.show'>Programas y convocatorias</a>
                 </li>
                 <li class='nav-item'>
-                  <a class='nav-link' href='#section-services' data-toggle='collapse' data-target='.navbar-collapse.show'>Servicios</a>
+                  <a class='nav-link' href='#servicios' data-toggle='collapse' data-target='.navbar-collapse.show'>Servicios</a>
                 </li>
                 <li class='nav-item'>
-                  <a class='nav-link' href='#section-contact' data-toggle='collapse' data-target='.navbar-collapse.show'>Contacto</a>
+                  <a class='nav-link' href='#contacto' data-toggle='collapse' data-target='.navbar-collapse.show'>Contacto</a>
                 </li>";
         } ?>
       </ul>

@@ -22,7 +22,7 @@
 
 <div class="container">
     <!-- Start Section: About Us -->
-    <section id="section-about-us" class="area pt-5">
+    <section id="nosotros" class="area pt-5">
         <h1 id="title_about_us" class="h1 text-center">Sobre nosotros</h1>
         <!--Grid row-->
         <div class="row wow fadeIn mt-3">
@@ -76,7 +76,7 @@
     <hr>
 
     <!-- Start Section: Programs and calls-->
-    <section id="section-programs-calls" class="area pt-5">
+    <section id="programas" class="area pt-5">
         <div class="container ">
             <div class="row justify-content-center">
                 <div class="col-md-10">
@@ -117,7 +117,7 @@
     <hr>
 
     <!--Start Section: Services-->
-    <section id="section-services" class="area pt-5">
+    <section id="servicios" class="area pt-5">
         <div class="container">
             <div class="text-center">
                 <h1 id="title_services" class="h1 text-center">Nuestros Servicios</h1>
@@ -131,7 +131,7 @@
     <hr>
 
     <!--Section: Contact-->
-    <section id="section-contact" class="area pt-5">
+    <section id="contacto" class="area pt-5">
         <div class="container">
             <div class="text-center">
                 <h1>Contáctanos</h1>
