@@ -10,9 +10,11 @@ class private_ctrl extends CI_Controller
 
         $this->load->model('user');
         $this->load->model('about');
-        $this->load->model('services');
-        $this->load->model('plans');
         $this->load->model('details');
+        $this->load->model('img');
+        $this->load->model('plans');
+        $this->load->model('programs');
+        $this->load->model('services');
     }
 
     public function index()
@@ -49,9 +51,14 @@ class private_ctrl extends CI_Controller
         echo json_encode($this->about->get_about());
     }
 
-    public function get_services()
+    public function get_details()
     {
-        echo json_encode($this->services->get_services());
+        echo json_encode($this->details->get_details());
+    }
+
+    public function get_img()
+    {
+        echo json_encode($this->img->get_img());
     }
 
     public function get_plans()
@@ -59,11 +66,15 @@ class private_ctrl extends CI_Controller
         echo json_encode($this->plans->get_plans());
     }
 
-    public function get_details()
+    public function get_programs()
     {
-        echo json_encode($this->details->get_details());
+        echo json_encode($this->programs->get_programs());
     }
 
+    public function get_services()
+    {
+        echo json_encode($this->services->get_services());
+    }
 
     public function save_about()
     {

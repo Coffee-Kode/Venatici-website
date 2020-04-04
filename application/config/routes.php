@@ -7,7 +7,8 @@ $route['default_controller'] = 'website_ctrl';
 $route['home'] = 'website_ctrl/home';
 $route['marketing'] = 'website_ctrl/marketing';
 $route['emprende'] = 'website_ctrl/emprende';
-$route['develop_web'] = 'website_ctrl/develop_web';
+$route['web'] = 'website_ctrl/develop_web';
+$route['mail'] = 'website_ctrl/send_mail';
 
 // private routes
 $route['admin'] = 'private_ctrl';
@@ -16,11 +17,13 @@ $route['admin'] = 'private_ctrl';
 $route['signin'] = 'private_ctrl/signin';
 $route['logout'] = 'private_ctrl/logout';
 
-// autoadmin routes
+// get routes
 $route['get_about'] = 'private_ctrl/get_about';
-$route['get_services'] = 'private_ctrl/get_services';
-$route['get_plans'] = 'private_ctrl/get_plans';
 $route['get_details'] = 'private_ctrl/get_details';
+$route['get_img'] = 'private_ctrl/get_img';
+$route['get_plans'] = 'private_ctrl/get_plans';
+$route['get_programs'] = 'private_ctrl/get_programs';
+$route['get_services'] = 'private_ctrl/get_services';
 
 //default routes
 $route['404_override'] = '';

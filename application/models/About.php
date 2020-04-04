@@ -3,7 +3,8 @@
 class About extends CI_Model
 {
 
-    public function get_about() {
+    public function get_about()
+    {
         return $this->db->get("about")->result();
     }
 
