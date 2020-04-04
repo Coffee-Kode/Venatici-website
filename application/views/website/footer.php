@@ -21,7 +21,7 @@
         <p><i class="fas fa-envelope mr-3"></i> <a href="mailto:venatici.asesorias@gmail.com">venatici.asesorias@gmail.com</a></p>
       </div>
       <div class="col-lg-4">
-        <h3 class="h3">Siguenos</h3>
+        <h3 class="h3">Síguenos</h3>
         <hr class="hr-light">
         <a href="https://www.facebook.com/venatici/" target="_blank">
           <i class="fab fa-facebook-f mr-3 fa-lg "></i>
@@ -37,7 +37,7 @@
   <!--Copyright-->
   <div class="footer-copyright py-3 text-right pr-4">
     © 2020 Copyright:
-    <a href="https://coffeekode.cl/" target="_blank"> Diseñado por CoffeKode </a>
+    <a href="https://coffeekode.cl/" target="_blank"> Desarrolado por CoffeKode </a>
   </div>
   <!--/.Copyright-->
 
