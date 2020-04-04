@@ -56,6 +56,76 @@ class private_ctrl extends CI_Controller
         echo json_encode($this->details->get_details());
     }
 
+    public function get_details_plan_1()
+    {
+        echo json_encode($this->details->get_details_plan_1());
+    }
+
+    public function get_details_plan_2()
+    {
+        echo json_encode($this->details->get_details_plan_2());
+    }
+
+    public function get_details_plan_3()
+    {
+        echo json_encode($this->details->get_details_plan_3());
+    }
+
+    public function get_details_plan_4()
+    {
+        echo json_encode($this->details->get_details_plan_4());
+    }
+
+    public function get_details_plan_5()
+    {
+        echo json_encode($this->details->get_details_plan_5());
+    }
+
+    public function get_details_plan_6()
+    {
+        echo json_encode($this->details->get_details_plan_6());
+    }
+
+    public function get_details_plan_7()
+    {
+        echo json_encode($this->details->get_details_plan_7());
+    }
+
+    public function get_details_plan_8()
+    {
+        echo json_encode($this->details->get_details_plan_8());
+    }
+
+    public function get_details_plan_9()
+    {
+        echo json_encode($this->details->get_details_plan_9());
+    }
+
+    public function get_details_plan_10()
+    {
+        echo json_encode($this->details->get_details_plan_10());
+    }
+
+    public function get_details_plan_11()
+    {
+        echo json_encode($this->details->get_details_plan_11());
+    }
+
+    public function get_details_emprende()
+    {
+        echo json_encode($this->details->get_details_emprende());
+    }
+
+    public function get_details_marketing()
+    {
+        echo json_encode($this->details->get_details_marketing());
+    }
+
+    public function get_details_web()
+    {
+        echo json_encode($this->details->get_details_web());
+    }
+
     public function get_img()
     {
         echo json_encode($this->img->get_img());
@@ -64,6 +134,21 @@ class private_ctrl extends CI_Controller
     public function get_plans()
     {
         echo json_encode($this->plans->get_plans());
+    }
+
+    public function get_plans_emprende()
+    {
+        echo json_encode($this->plans->get_plans_emprende());
+    }
+
+    public function get_plans_marketing()
+    {
+        echo json_encode($this->plans->get_plans_marketing());
+    }
+
+    public function get_plans_web()
+    {
+        echo json_encode($this->plans->get_plans_web());
     }
 
     public function get_programs()
