@@ -63,15 +63,14 @@ class private_ctrl extends CI_Controller
         }
     }
 
-    public function save_details()
+    public function add_details()
     {
-        /*
-        $about_us = $this->input->post('about_us');
-        $mission = $this->input->post('mission');
-        $vision = $this->input->post('vision');
+        $description = $this->input->post('detail_description');
+        $check = $this->input->post('detail_switch');
+        $id_plans_details = $this->input->post('id_plans');
 
         if ($this->session->userdata("user")) {
-            if ($this->about->save_about($about_us, $mission, $vision)) {
+            if ($this->details->add_details($description, $check, $id_plans_details)) {
                 echo json_encode(array("msg" => "1"));
             } else {
                 echo json_encode(array("msg" => "2"));
@@ -79,7 +78,38 @@ class private_ctrl extends CI_Controller
         } else {
             redirect('');
         }
-        */
+    }
+
+    public function save_details()
+    {
+        if ($this->session->userdata("user")) {
+            $id_details = $this->input->post('edit_detail_id');
+            $description = $this->input->post('edit_detail_description');
+            $check = $this->input->post('edit_detail_switch');
+
+            if ($this->details->save_details($id_details, $description, $check)) {
+                echo json_encode(array("msg" => "1"));
+            } else {
+                echo json_encode(array("msg" => "2"));
+            }
+        } else {
+            redirect('');
+        }
+    }
+
+    public function delete_details()
+    {
+        if ($this->session->userdata("user")) {
+            $id_details = $this->input->post('delete_detail_id');
+
+            if ($this->details->delete_details($id_details)) {
+                echo json_encode(array("msg" => "1"));
+            } else {
+                echo json_encode(array("msg" => "2"));
+            }
+        } else {
+            redirect('');
+        }
     }
 
     public function save_img()
@@ -146,13 +176,13 @@ class private_ctrl extends CI_Controller
 
     public function save_plans()
     {
-        /*
-        $about_us = $this->input->post('about_us');
-        $mission = $this->input->post('mission');
-        $vision = $this->input->post('vision');
+        $id_plans = $this->input->post('plan_id');
+        $title = $this->input->post('plan_title');
+        $description = $this->input->post('plan_description');
+        $cost = $this->input->post('plan_cost');
 
         if ($this->session->userdata("user")) {
-            if ($this->about->save_about($about_us, $mission, $vision)) {
+            if ($this->plans->save_plans($id_plans, $title, $description, $cost)) {
                 echo json_encode(array("msg" => "1"));
             } else {
                 echo json_encode(array("msg" => "2"));
@@ -160,7 +190,6 @@ class private_ctrl extends CI_Controller
         } else {
             redirect('');
         }
-        */
     }
 
     public function save_programs()
@@ -180,13 +209,12 @@ class private_ctrl extends CI_Controller
 
     public function save_services()
     {
-        /*
-        $about_us = $this->input->post('about_us');
-        $mission = $this->input->post('mission');
-        $vision = $this->input->post('vision');
-
         if ($this->session->userdata("user")) {
-            if ($this->about->save_about($about_us, $mission, $vision)) {
+            $id_service = $this->input->post('id_service');
+            $title = $this->input->post('title');
+            $description = $this->input->post('description');
+
+            if ($this->services->save_services($id_service, $title, $description)) {
                 echo json_encode(array("msg" => "1"));
             } else {
                 echo json_encode(array("msg" => "2"));
@@ -194,6 +222,5 @@ class private_ctrl extends CI_Controller
         } else {
             redirect('');
         }
-        */
     }
 }

@@ -8,6 +8,36 @@ class Details extends CI_Model
         return $this->db->get("details")->result();
     }
 
+    public function add_details($description, $check, $id_plans_details)
+    {
+        $data = array(
+            "description" => $description,
+            "check" => $check,
+            "id_plans_details" => $id_plans_details
+        );
+
+        return $this->db->insert("details", $data);
+    }
+
+    public function save_details($id_details, $description, $check)
+    {
+        $this->db->where("id_details", $id_details);
+
+        $data = array(
+            "description" => $description,
+            "check" => $check
+        );
+
+        return $this->db->update("details", $data);
+    }
+
+    public function delete_details($id_details)
+    {
+        $this->db->where("id_details", $id_details);
+
+        return $this->db->delete("details");
+    }
+
     public function get_details_plan_1()
     {
         $this->db->where("id_plans_details", "1");

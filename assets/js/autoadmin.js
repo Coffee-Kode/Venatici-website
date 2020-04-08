@@ -103,7 +103,7 @@ function tbody_plans() {
                 fil += "<td>" + o.description + "</td>";
                 fil += "<td>" + o.cost + "</td>";
                 fil += "<td align='right'>";
-                fil += "<a class='ml-2' id='btn_modal_add_detail' data-toggle='modal' data-target='#modal_add_details'><i class='fas fa-plus'></i></a>";
+                fil += "<a class='ml-2' id='btn_modal_add_details' data-toggle='modal' data-target='#modal_add_details'><i class='fas fa-plus'></i></a>";
                 fil += "<a class='ml-2' id='btn_modal_edit_plans' data-toggle='modal' data-target='#modal_edit_plans'><i class='fas fa-pencil-alt'></i></a>";
                 fil += "</td>";
                 fil += "</tr>";
@@ -250,18 +250,154 @@ $("#btn_delete_img").on("click", function (e) {
     });
 });
 
+$("#btn_services_1").on("click", function (e) {
+    e.preventDefault();
+    var title = $("#title_service_1").val();
+    var description = $("#description_service_1").val();
+
+    update_service(1, title, description);
+});
+
+$("#btn_services_2").on("click", function (e) {
+    e.preventDefault();
+    var title = $("#title_service_2").val();
+    var description = $("#description_service_2").val();
+
+    update_service(2, title, description);
+});
+
+$("#btn_services_3").on("click", function (e) {
+    e.preventDefault();
+    var title = $("#title_service_3").val();
+    var description = $("#description_service_3").val();
+
+    update_service(3, title, description);
+});
+
+$("#btn_plans").on("click", function (e) {
+    e.preventDefault();
+    var plan_id = $("#plan_id").val();
+    var plan_title = $("#plan_title").val();
+    var plan_description = $("#plan_description").val();
+    var plan_cost = $("#plan_cost").val();
+
+    $.ajax({
+        url: 'save_plans',
+        type: 'post',
+        dataType: 'json',
+        data: { plan_id, plan_title, plan_description, plan_cost },
+        success: function (o) {
+            if (o.msg == "1") {
+                tbody_plans();
+                $('#modal_edit_plans').modal('hide');
+                alert("Se ha guardado el registro");
+            } else {
+                alert("No se ha podido guardar el registro");
+            }
+        },
+        error: function () {
+            alert("Error interno");
+        }
+    });
+});
+
+$("#btn_add_detail").on("click", function (e) {
+    e.preventDefault();
+    var detail_description = $("#detail_description").val();
+    var detail_switch = $("#detail_switch").is(":checked");
+    var id_plans = $("#detail_id_plans").val();
+
+    detail_switch = (detail_switch ? 1 : 2);
+    $.ajax({
+        url: 'add_details',
+        type: 'post',
+        dataType: 'json',
+        data: { detail_description, detail_switch, id_plans },
+        success: function (o) {
+            if (o.msg == "1") {
+                tbody_plans();
+                $('#modal_add_details').modal('hide');
+                alert("Se ha guardado el registro");
+            } else {
+                alert("No se ha podido guardar el registro");
+            }
+        },
+        error: function () {
+            alert("Error interno");
+        }
+    });
+});
+
+$("#btn_detail").on("click", function (e) {
+    e.preventDefault();
+    var edit_detail_id = $("#edit_detail_id").val();
+    var edit_detail_description = $("#edit_detail_description").val();
+    var edit_detail_switch = $("#edit_detail_switch").is(":checked");
+
+    edit_detail_switch = (edit_detail_switch ? 1 : 2);
+    $.ajax({
+        url: 'save_details',
+        type: 'post',
+        dataType: 'json',
+        data: { edit_detail_id, edit_detail_description, edit_detail_switch },
+        success: function (o) {
+            if (o.msg == "1") {
+                tbody_plans();
+                $('#modal_edit_details').modal('hide');
+                alert("Se ha guardado el registro");
+            } else {
+                alert("No se ha podido guardar el registro");
+            }
+        },
+        error: function () {
+            alert("Error interno");
+        }
+    });
+});
+
+$("#btn_delete_detail").on("click", function (e) {
+    e.preventDefault();
+    var delete_detail_id = $("#delete_detail_id").val();
+
+    $.ajax({
+        url: 'delete_details',
+        type: 'post',
+        dataType: 'json',
+        data: { delete_detail_id },
+        success: function (o) {
+            if (o.msg == "1") {
+                tbody_plans();
+                $('#modal_delete_details').modal('hide');
+                alert("Se ha eliminado el registro");
+            } else {
+                alert("No se ha podido guardar el registro");
+            }
+        },
+        error: function () {
+            alert("Error interno");
+        }
+    });
+});
+
 $("body").on("click", "#btn_modal_edit_plans", function (e) {
     e.preventDefault();
     var id_plans = $(this).parents("tr").find("td").html();
     $.getJSON(url_plans, function (result) {
         $.each(result, function (i, o) {
             if (o.id_plans == id_plans) {
+                $("#plan_id").val(o.id_plans);
                 $("#plan_title").val(o.title);
                 $("#plan_description").val(o.description);
                 $("#plan_cost").val(o.cost);
             }
         });
     });
+});
+
+$("body").on("click", "#btn_modal_add_details", function (e) {
+    e.preventDefault();
+    var id_plans = $(this).parents("tr").find("td").html();
+    $("#detail_id_plans").val(id_plans);
 });
 
 $("body").on("click", "#btn_modal_edit_details", function (e) {
@@ -271,6 +407,7 @@ $("body").on("click", "#btn_modal_edit_details", function (e) {
         $.each(result, function (i, o) {
             if (o.id_details == id_details) {
                 $("#edit_detail_description").val(o.description);
+                $("#edit_detail_id").val(o.id_details);
                 if (o.check == 1) {
                     $('#edit_detail_switch').prop('checked', true)
                 } else {
@@ -281,6 +418,13 @@ $("body").on("click", "#btn_modal_edit_details", function (e) {
     });
 });
 
+$("body").on("click", "#btn_modal_delete_details", function (e) {
+    e.preventDefault();
+    var id_details = $(this).parents("tr").find("td").html();
+    $("#delete_detail_id").val(id_details);
+});
+
+
 $("body").on("click", "#btn_modal_view_img", function (e) {
     e.preventDefault();
     var img_path = $(this).parents("tr").find("td").html();
@@ -288,6 +432,25 @@ $("body").on("click", "#btn_modal_view_img", function (e) {
     $("#modal_img").empty();
     $("#modal_img").append("<div style='display: none;'><input type='text' id='id_img_modal' value='" + id_img + "'/><input type='text' id='path_img_modal' value='" + img_path + "'/></div><img src='assets/images/" + img_path + "' alt='' style='width:100%'>");
 });
+
+function update_service(id_service, title, description) {
+    $.ajax({
+        url: 'save_services',
+        type: 'post',
+        dataType: 'json',
+        data: { id_service, title, description },
+        success: function (o) {
+            if (o.msg == "1") {
+                alert("Se ha guardado el registro");
+            } else {
+                alert("No se ha podido guardar el registro");
+            }
+        },
+        error: function () {
+            alert("Error interno");
+        }
+    });
+}
 
 /* ============ START TEST AREA ============ */
 /*

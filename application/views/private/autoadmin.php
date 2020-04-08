@@ -19,7 +19,9 @@
 </head>
 
 <body>
+    <!-- START LOADER -->
     <div id="loader" class="loader loader-bouncing is-active"></div>
+    <!-- END LOADER -->
 
     <!-- START NAVBAR -->
     <div class="navbar-dark bg-dark sticky-top">
@@ -47,9 +49,12 @@
                 </div>
             </div>
             <!-- END DARK MODE -->
+            <!-- START HEADER -->
             <h1 class="display-5">Bienvenido a Venatici Admin</h1>
             <p class="lead">Administre la información de su sitio web desde los siguientes formularios:</p>
+            <!-- END HEADER -->
             <hr class="my-4">
+            <!-- START BODY -->
             <div class="accordion" id="accordion">
                 <!-- START CARD SOBRE NOSOTROS -->
                 <div class="card">
@@ -156,7 +161,7 @@
                                         <textarea class="form-control" id="description_service_1" rows="3"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button type="button" class="btn btn-success float-right mb-4">Guardar</button>
+                                        <button type="button" class="btn btn-success float-right mb-4" id="btn_services_1">Guardar</button>
                                     </div>
                                 </div>
                                 <div class="list-group-item">
@@ -203,7 +208,7 @@
                                         <textarea class="form-control" id="description_service_2" rows="3"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button type="button" class="btn btn-success float-right mb-4">Guardar</button>
+                                        <button type="button" class="btn btn-success float-right mb-4" id="btn_services_2">Guardar</button>
                                     </div>
                                 </div>
                                 <div class="list-group-item">
@@ -237,7 +242,7 @@
                             </button>
                         </h2>
                     </div>
-                    <div id="collapse5" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+                    <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
                         <div class="card-body">
 
                             <div class="list-group">
@@ -251,7 +256,7 @@
                                         <textarea class="form-control" id="description_service_3" rows="3"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button type="button" class="btn btn-success float-right mb-4">Guardar</button>
+                                        <button type="button" class="btn btn-success float-right mb-4" id="btn_services_3">Guardar</button>
                                     </div>
                                 </div>
                                 <div class="list-group-item">
@@ -276,10 +281,35 @@
                     </div>
                 </div>
                 <!-- END CARD SERVICIOS: PAGINAS WEB -->
+                <!-- START CARD CONTACTO -->
+                <div class="card">
+                    <div class="card-header" id="heading6">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                Contacto
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="list-group">
+                                <div class="list-group-item">
+                                </div>
+                                <div class="list-group-item">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END CARD CONTACTO -->
             </div>
+            <!-- END BODY -->
         </div>
-        <!-- END FORM AUTOADMIN -->
+    </div>
+    <!-- END FORM AUTOADMIN -->
 
+    <!-- START MODALS SECTIONS -->
+    <div>
         <!-- START MODAL EDIT PLANS -->
         <div class="modal fade" id="modal_edit_plans" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modal_edit_plans_label" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
@@ -294,6 +324,7 @@
                         <div class="form-group">
                             <label for="plan_title">Título</label>
                             <input type="text" class="form-control" id="plan_title">
+                            <input style="display: none;" id="plan_id">
                         </div>
                         <div class="form-group">
                             <label for="plan_description">Descripción</label>
@@ -306,7 +337,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-success">Guardar</button>
+                        <button type="button" class="btn btn-success" id="btn_plans">Guardar</button>
                     </div>
                 </div>
             </div>
@@ -327,6 +358,7 @@
                         <div class="form-group">
                             <label for="detail_description">Descripción</label>
                             <input type="text" class="form-control" id="detail_description">
+                            <input style="display: none;" id="detail_id_plans">
                         </div>
                         <div class="form-group">
                             <div class="custom-control custom-switch">
@@ -337,7 +369,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-success">Guardar</button>
+                        <button type="button" class="btn btn-success" id="btn_add_detail">Guardar</button>
                     </div>
                 </div>
             </div>
@@ -358,6 +390,7 @@
                         <div class="form-group">
                             <label for="edit_detail_description">Descripción</label>
                             <input type="text" class="form-control" id="edit_detail_description">
+                            <input style="display: none;" id="edit_detail_id">
                         </div>
                         <div class="form-group">
                             <div class="custom-control custom-switch">
@@ -368,7 +401,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-success">Guardar</button>
+                        <button type="button" class="btn btn-success" id="btn_detail">Guardar</button>
                     </div>
                 </div>
             </div>
@@ -387,11 +420,12 @@
                     </div>
                     <div class="modal-body">
                         <div class="form-row mb-2 mt-1">
+                            <input style="display: none;" id="delete_detail_id">
                             <div class="col-md-4 offset-md-1">
                                 <button type="button" class="btn btn-info btn-block" data-dismiss="modal">No</button>
                             </div>
                             <div class="col-md-4 offset-md-2">
-                                <button type="button" class="btn btn-danger btn-block">Si</button>
+                                <button type="button" class="btn btn-danger btn-block" id="btn_delete_detail">Si</button>
                             </div>
                         </div>
                     </div>
@@ -401,7 +435,7 @@
         <!-- END MODAL DELETE DETAILS PLANS -->
 
         <!-- START MODAL IMAGES -->
-        <div aria-hidden="true" aria-labelledby="modal_view_img_label" class="modal fade" id="modal_view_img" role="dialog" tabindex="-1">
+        <div class="modal fade" id="modal_view_img" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modal_view_img_label" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                 <div class="modal-content">
                     <div id="modal_img" class="modal-body mb-0 p-0">
@@ -440,14 +474,15 @@
             </div>
         </div>
         <!-- END MODAL CONFIRM DELETE DETAILS PLANS -->
+    </div>
+    <!-- END MODALS SECTIONS -->
 
-        <!-- START JS Dependencies -->
-        <script src="assets/lib/jquery-3.4.1/jquery-3.4.1.min.js"></script>
-        <script src="assets/lib/popper-1.12.9/popper.min.js"></script>
-        <script src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
-        <script src="assets/js/autoadmin.js"></script>
-        <!-- END JS Dependencies -->
-
+    <!-- START JS Dependencies -->
+    <script src="assets/lib/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+    <script src="assets/lib/popper-1.12.9/popper.min.js"></script>
+    <script src="assets/lib/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/autoadmin.js"></script>
+    <!-- END JS Dependencies -->
 </body>
 
 </html>

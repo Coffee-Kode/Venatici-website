@@ -53,10 +53,14 @@ $route['logout'] = 'private_ctrl/logout';
 // save routes
 $route['save_about'] = 'private_ctrl/save_about';
 $route['save_details'] = 'private_ctrl/save_details';
-$route['save_img'] = 'private_ctrl/save_img';
 $route['save_plans'] = 'private_ctrl/save_plans';
 $route['save_programs'] = 'private_ctrl/save_programs';
 $route['save_services'] = 'private_ctrl/save_services';
 
+// add routes
+$route['save_img'] = 'private_ctrl/save_img';
+$route['add_details'] = 'private_ctrl/add_details';
+
 // delete routes
 $route['delete_img'] = 'private_ctrl/delete_img';
+$route['delete_details'] = 'private_ctrl/delete_details';
