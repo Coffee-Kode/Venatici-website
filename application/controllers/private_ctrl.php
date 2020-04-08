@@ -141,14 +141,12 @@ class private_ctrl extends CI_Controller
 
         if ($this->session->userdata("user")) {
 
-            $config = [
-                "upload_path" => "./assets/images",
-                'allowed_types' => "png|jpg",
-                'remove_spaces' => TRUE,
-                'max_size' => '2048',
-                'max_width' => '1200',
-                'max_height' => '400'
-            ];
+            $config['upload_path']   = './assets/images';
+            $config['allowed_types']   = 'png|jpg';
+            $config['remove_spaces']   = TRUE;
+            $config['max_size']   = '2048';
+            $config['max_width']   = '1200';
+            $config['max_height']   = '400';
 
             $this->load->library("upload", $config);
 
