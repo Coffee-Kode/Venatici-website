@@ -84,10 +84,6 @@ function get_contact() {
             document.getElementById("contact_phone_1").innerHTML = o.phone_1;
             document.getElementById("contact_phone_2").innerHTML = o.phone_2;
             $("#map-container-google-11").append("<iframe src='" + o.url_maps + "' frameborder='0' style='border:0' allowfullscreen></iframe>");
-            document.getElementById("footer_address").innerHTML = o.address;
-            document.getElementById("footer_phone").innerHTML = o.phone_1 + (o.phone_2 != null || o.phone_2 != "" ? (", " + o.phone_2) : "");
-            $("#footer_email").append("<i class='fas fa-envelope mr-3'></i> <a href='mailto:" + o.email_1 + "'>" + o.email_1 + "</a>");
-            $("#rrss").append("<a href='" + o.url_facebook + "' target='_blank'><i class='fab fa-facebook-f mr-3 fa-lg'></i></a><a href='" + o.url_telegram + "' target='_blank'><i class='fab fa-instagram mr-3 fa-lg'></i></a>");
         });
     });
 }

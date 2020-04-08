@@ -67,6 +67,7 @@ $page_web = "/venatici-website/web"; # en servidor cambiar por "/web"
 } else {
   echo "<script type='text/javascript' src='assets/js/home.js'></script>";
 } ?>
+<script type='text/javascript' src='assets/js/footer.js'></script>
 
 </body>
 
