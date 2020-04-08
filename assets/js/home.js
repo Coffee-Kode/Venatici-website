@@ -25,21 +25,28 @@ function get_programs() {
     });
 }
 
+
+"<li data-target='#carousel-1' data-slide-to='1'></li>"
+
 function get_img() {
     var url = 'get_img';
     $.getJSON(url, function (result) {
         var num = 0;
         $.each(result, function (i, o) {
             var fil = ""
+            var ol = ""
             if (num == 0) {
                 fil += "<div class='carousel-item active'>";
-                num++;
+                ol += "<li data-target='#carousel-1' data-slide-to='0' class='active'></li>";
             } else {
                 fil += "<div class='carousel-item'>";
+                ol += "<li data-target='#carousel-1' data-slide-to='" + num + "' class='active'></li>";
             }
+            num++;
             fil += "<img class='d-block w-100 rounded' src='assets/images/" + o.path + "'>";
             fil += "</div>";
             $("#carousel").append(fil);
+            $("#carousel-indicators").append(ol);
         });
     });
 }

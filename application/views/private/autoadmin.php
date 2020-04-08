@@ -25,8 +25,7 @@
     <div class="navbar-dark bg-dark sticky-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="home">
-                <img src="assets/images/ic_venatici.jpg" width="30" height="30"
-                    class="d-inline-block align-top mr-2 rounded" alt="">
+                <img src="assets/images/ic_venatici.jpg" width="30" height="30" class="d-inline-block align-top mr-2 rounded" alt="">
                 Venatici</a>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -56,8 +55,7 @@
                 <div class="card">
                     <div class="card-header" id="heading2">
                         <h2 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1"
-                                aria-expanded="true" aria-controls="collapse1">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                                 Sobre Nosotros
                             </button>
                         </h2>
@@ -77,19 +75,17 @@
                                 <textarea class="form-control" id="vision" rows="3"></textarea>
                             </div>
                             <div class="form-group">
-                                <button type="button" id="btn_about"
-                                    class="btn btn-success float-right mb-4">Guardar</button>
+                                <button type="button" id="btn_about" class="btn btn-success float-right mb-4">Guardar</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- END CARD SOBRE NOSOTROS -->
-                <!-- START CARD INICIO -->
+                <!-- START CARD PROGRAMAS -->
                 <div class="card">
                     <div class="card-header" id="heading1">
                         <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
                                 Programas y Convocatorias
                             </button>
                         </h2>
@@ -99,73 +95,36 @@
                             <div class="list-group">
                                 <div class="list-group-item">
                                     <div class="form-group">
-                                        <label for="programas">Descripción</label>
-                                        <textarea class="form-control" id="programas" rows="3"></textarea>
+                                        <label for="programs">Descripción</label>
+                                        <textarea class="form-control" id="programs" rows="3"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button type="button" id="btn_programs"
-                                            class="btn btn-success float-right mb-4">Guardar
+                                        <button type="button" id="btn_programs" class="btn btn-success float-right mb-4">Guardar
                                         </button>
                                     </div>
                                 </div>
                                 <div class="list-group-item">
                                     <h5 class="mb-5">Imagenes del caroussel:</h5>
-                                    <div class="form-row">
-                                        <div class="col-md-4">
-                                            <input type="file" class="form-control-file" id="img_carousel"
-                                                aria-describedby="img_help" accept="image/png, image/jpeg">
-                                            <small id="img_help" class="form-text text-muted">Formato admitido
-                                                JPEG/PNG de 1200x400 pixeles.</small>
+                                    <form id="form_img">
+                                        <div class="form-row">
+                                            <div class="col-md-5">
+                                                <input type="file" class="form-control-file" name="img_carousel" id="img_carousel" aria-describedby="img_help" accept="image/png, image/jpeg">
+                                                <small id="img_help" class="form-text text-muted">Formato admitido:
+                                                    JPEG/PNG de 1200x400 pixeles y 2MB Max.</small>
+                                            </div>
+                                            <div class="col-md-7">
+                                                <button type="button" id="btn_add_img" class="btn btn-warning">Agregar</button>
+                                            </div>
                                         </div>
-                                        <div class="col-md-8">
-                                            <button type="button" id="btn_add_img" class="btn btn-info">Agregar</button>
-                                        </div>
-                                    </div>
+                                    </form>
                                     <div class="form-group">
                                         <table class="table table-striped table-sm mt-4">
                                             <thead>
                                                 <tr>
                                                     <th scope="col">Archivo</th>
-                                                    <th scope="col"></th>
                                                 </tr>
                                             </thead>
                                             <tbody id="tbody_img">
-                                                <tr>
-                                                    <td>
-                                                        <a href="assets/images/img-carousel-0.jpg">img-carousel-0.jpg
-                                                        </a>
-                                                    </td>
-                                                    <td>
-                                                        <a class="float-right mr-2" id="btn_modal_delete_img"
-                                                            data-toggle="modal" data-target="#modal_edit_plans">
-                                                            <i class="fas fa-times"></i>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <a href="assets/images/img-carousel-1.jpg">img-carousel-1.jpg
-                                                        </a>
-                                                    </td>
-                                                    <td>
-                                                        <a class="float-right mr-2" id="btn_modal_delete_img"
-                                                            data-toggle="modal" data-target="#modal_edit_plans">
-                                                            <i class="fas fa-times"></i>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-                                                        <a href="assets/images/img-carousel-1.jpg">img-carousel-2.jpg
-                                                        </a>
-                                                    </td>
-                                                    <td>
-                                                        <a class="float-right mr-2" id="btn_modal_delete_img"
-                                                            data-toggle="modal" data-target="#modal_edit_plans">
-                                                            <i class="fas fa-times"></i>
-                                                        </a>
-                                                    </td>
-                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -174,13 +133,12 @@
                         </div>
                     </div>
                 </div>
-                <!-- END CARD INICIO -->
+                <!-- END CARD PROGRAMAS -->
                 <!-- START CARD SERVICIOS: INICIO EMPRENDE -->
                 <div class="card">
                     <div class="card-header" id="heading3">
                         <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                                 Servicios > Inicio Emprende
                             </button>
                         </h2>
@@ -227,8 +185,7 @@
                 <div class="card">
                     <div class="card-header" id="heading4">
                         <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                                 Servicios > Marketing Digital
                             </button>
                         </h2>
@@ -252,8 +209,7 @@
                                 <div class="list-group-item">
                                     <h5 class="mb-1">Planes Marketing Digital:</h5>
                                     <div class="form-group">
-                                        <table class="table table-striped table-sm mt-4"
-                                            style="border-collapse:collapse;">
+                                        <table class="table table-striped table-sm mt-4" style="border-collapse:collapse;">
                                             <thead>
                                                 <tr>
                                                     <th scope="col">Título</th>
@@ -276,8 +232,7 @@
                 <div class="card">
                     <div class="card-header" id="heading5">
                         <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                                 Servicios > Paginas Web
                             </button>
                         </h2>
@@ -302,8 +257,7 @@
                                 <div class="list-group-item">
                                     <h5 class="mb-1">Planes Paginas Web:</h5>
                                     <div class="form-group">
-                                        <table class="table table-striped table-sm mt-4"
-                                            style="border-collapse:collapse;">
+                                        <table class="table table-striped table-sm mt-4" style="border-collapse:collapse;">
                                             <thead>
                                                 <tr>
                                                     <th scope="col">Título</th>
@@ -322,14 +276,12 @@
                     </div>
                 </div>
                 <!-- END CARD SERVICIOS: PAGINAS WEB -->
-
             </div>
         </div>
         <!-- END FORM AUTOADMIN -->
 
         <!-- START MODAL EDIT PLANS -->
-        <div class="modal fade" id="modal_edit_plans" data-backdrop="static" tabindex="-1" role="dialog"
-            aria-labelledby="modal_edit_plans_label" aria-hidden="true">
+        <div class="modal fade" id="modal_edit_plans" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modal_edit_plans_label" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -359,11 +311,10 @@
                 </div>
             </div>
         </div>
-        <!-- START MODAL EDIT PLANS -->
+        <!-- END MODAL EDIT PLANS -->
 
         <!-- START MODAL ADD DETAILS PLANS -->
-        <div class="modal fade" id="modal_add_details" data-backdrop="static" tabindex="-1" role="dialog"
-            aria-labelledby="modal_add_details_label" aria-hidden="true">
+        <div class="modal fade" id="modal_add_details" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modal_add_details_label" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -391,11 +342,10 @@
                 </div>
             </div>
         </div>
-        <!-- START MODAL ADD DETAILS PLANS -->
+        <!-- END MODAL ADD DETAILS PLANS -->
 
         <!-- START MODAL EDIT DETAILS PLANS -->
-        <div class="modal fade" id="modal_edit_details" data-backdrop="static" tabindex="-1" role="dialog"
-            aria-labelledby="modal_edit_details_label" aria-hidden="true">
+        <div class="modal fade" id="modal_edit_details" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modal_edit_details_label" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -423,11 +373,10 @@
                 </div>
             </div>
         </div>
-        <!-- START MODAL EDIT DETAILS PLANS -->
+        <!-- END MODAL EDIT DETAILS PLANS -->
 
-        <!-- START MODAL EDIT DETAILS PLANS -->
-        <div class="modal fade" id="modal_delete_details" data-backdrop="static" tabindex="-1" role="dialog"
-            aria-labelledby="modal_delete_details_label" aria-hidden="true">
+        <!-- START MODAL DELETE DETAILS PLANS -->
+        <div class="modal fade" id="modal_delete_details" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modal_delete_details_label" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -449,7 +398,48 @@
                 </div>
             </div>
         </div>
-        <!-- START MODAL EDIT DETAILS PLANS -->
+        <!-- END MODAL DELETE DETAILS PLANS -->
+
+        <!-- START MODAL IMAGES -->
+        <div aria-hidden="true" aria-labelledby="modal_view_img_label" class="modal fade" id="modal_view_img" role="dialog" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content">
+                    <div id="modal_img" class="modal-body mb-0 p-0">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-danger" data-target="#modal_confirm_delete_details" data-toggle="modal" id="btn_confirm_delete_img">Eliminar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MODAL IMAGES -->
+
+        <!-- START MODAL CONFIRM DELETE DETAILS PLANS -->
+        <div class="modal fade" id="modal_confirm_delete_details" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modal_confirm_delete_details_label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal_confirm_delete_details_label">¿Desea eliminar la imagen?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-row mb-2 mt-1">
+                            <div style="display: none;" id="div_confirm_delete_img"></div>
+                            <div class="col-md-4 offset-md-1">
+                                <button type="button" class="btn btn-info btn-block" data-dismiss="modal">No</button>
+                            </div>
+                            <div class="col-md-4 offset-md-2">
+                                <button type="button" class="btn btn-danger btn-block" id="btn_delete_img">Si</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MODAL CONFIRM DELETE DETAILS PLANS -->
 
         <!-- START JS Dependencies -->
         <script src="assets/lib/jquery-3.4.1/jquery-3.4.1.min.js"></script>

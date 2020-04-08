@@ -1,7 +1,9 @@
 $(document).ready(function () {
     get_about();
+    get_programs();
     get_services();
     tbody_plans();
+    tbody_imgs();
 
     $('.accordian-body').on('show.bs.collapse', function () {
         $(this).closest("table")
@@ -11,9 +13,11 @@ $(document).ready(function () {
 });
 
 const url_about = 'get_about';
+const url_programas = 'get_programs';
 const url_services = 'get_services';
 const url_plans = 'get_plans';
 const url_details = 'get_details';
+const url_img = 'get_img';
 
 const darkSwitch = document.getElementById('darkSwitch');
 const theme = document.getElementById('link_css');
@@ -78,6 +82,14 @@ function get_services() {
     });
 }
 
+function get_programs() {
+    $.getJSON(url_services, function (result) {
+        $.each(result, function (i, o) {
+            $("#programs").val(o.description);
+        });
+    });
+}
+
 function tbody_plans() {
     $("#tbody_plans_1").empty();
     $("#tbody_plans_2").empty();
@@ -113,9 +125,22 @@ function tbody_plans() {
     });
 }
 
+function tbody_imgs() {
+    $("#tbody_img").empty();
+    $.getJSON(url_img, function (result) {
+        $.each(result, function (i, o) {
+            var fil = "<tr>";
+            fil += "<td style='display: none;'>" + o.path + "</td>";
+            fil += "<td style='display: none;'><p>" + o.id_img + "</p></td>";
+            fil += "<td><a href='#' id='btn_modal_view_img' data-target='#modal_view_img' data-toggle='modal'>" + o.path + "</a></td>";
+            fil += "</tr>";
+            $("#tbody_img").append(fil);
+        });
+    });
+}
+
 $("#btn_about").on("click", function (e) {
     e.preventDefault();
-
     var about_us = $("#about_us").val();
     var mission = $("#mission").val();
     var vision = $("#vision").val();
@@ -127,13 +152,100 @@ $("#btn_about").on("click", function (e) {
         data: { about_us, mission, vision },
         success: function (o) {
             if (o.msg == "1") {
-                alert("updated success")
+                alert("Se ha guardado el registro")
             } else {
-                alert("updated failed");
+                alert("No se ha podido guardar el registro")
             }
         },
         error: function () {
-            alert("system error");
+            alert("Error interno");
+        }
+    });
+});
+
+$("#btn_programs").on("click", function (e) {
+    e.preventDefault();
+    var programs = $("#programs").val();
+
+    $.ajax({
+        url: 'save_programs',
+        type: 'post',
+        dataType: 'json',
+        data: { programs },
+        success: function (o) {
+            if (o.msg == "1") {
+                alert("Se ha guardado el registro")
+            } else {
+                alert("No se ha podido guardar el registro")
+            }
+        },
+        error: function () {
+            alert("Error interno");
+        }
+    });
+});
+
+$("#btn_add_img").on("click", function (e) {
+    e.preventDefault();
+    var data = new FormData($('#form_img')[0]);
+
+    $.ajax({
+        url: 'save_img',
+        type: 'post',
+        dataType: 'json',
+        data: data,
+        enctype: 'multipart/form-data',
+        processData: false,
+        contentType: false,
+        cache: false,
+        timeout: false,
+        success: function (o) {
+            if (o.msg == "1") {
+                tbody_imgs();
+                $("#img_carousel").val("");
+                alert("Se ha guardado el registro")
+            } else if (o.msg == "3") {
+                alert("La imagen no cumple con el formato admitido")
+            } else {
+                alert("No se ha podido guardar el registro")
+            }
+        },
+        error: function () {
+            alert("Error interno");
+        }
+    });
+});
+
+$("#btn_confirm_delete_img").on("click", function (e) {
+    var id_img = $("#id_img_modal").val();
+    var path_img = $("#path_img_modal").val();
+
+    $("#div_confirm_delete_img").empty();
+    $("#div_confirm_delete_img").append("<input type='text' id='id_delete_img' value='" + id_img + "'/><input type='text' id='path_delete_img' value='" + path_img + "'/>");
+});
+
+$("#btn_delete_img").on("click", function (e) {
+    e.preventDefault();
+    var id_img = $("#id_delete_img").val();
+    var img_path = $("#path_delete_img").val();
+
+    $.ajax({
+        url: 'delete_img',
+        type: 'post',
+        dataType: 'json',
+        data: { id_img, img_path },
+        success: function (o) {
+            if (o.msg == "1") {
+                tbody_imgs();
+                $('#modal_confirm_delete_details').modal('hide');
+                $('#modal_view_img').modal('hide');
+                alert("Se ha eliminado el registro")
+            } else {
+                alert("No se ha podido eliminar el registro")
+            }
+        },
+        error: function () {
+            alert("Error interno");
         }
     });
 });
@@ -167,6 +279,14 @@ $("body").on("click", "#btn_modal_edit_details", function (e) {
             }
         });
     });
+});
+
+$("body").on("click", "#btn_modal_view_img", function (e) {
+    e.preventDefault();
+    var img_path = $(this).parents("tr").find("td").html();
+    var id_img = $(this).parents("tr").find("p").html();
+    $("#modal_img").empty();
+    $("#modal_img").append("<div style='display: none;'><input type='text' id='id_img_modal' value='" + id_img + "'/><input type='text' id='path_img_modal' value='" + img_path + "'/></div><img src='assets/images/" + img_path + "' alt='' style='width:100%'>");
 });
 
 /* ============ START TEST AREA ============ */
