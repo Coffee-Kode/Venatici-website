@@ -1,6 +1,7 @@
 $(document).ready(function () {
     get_about();
     get_programs();
+    get_contact();
     get_services();
     tbody_plans();
     tbody_imgs();
@@ -13,6 +14,7 @@ $(document).ready(function () {
 });
 
 const url_about = 'get_about';
+const url_contact = 'get_contact';
 const url_programas = 'get_programs';
 const url_services = 'get_services';
 const url_plans = 'get_plans';
@@ -61,6 +63,21 @@ function get_about() {
             $("#about_us").val(o.about_us);
             $("#mission").val(o.mission);
             $("#vision").val(o.vision);
+        });
+    });
+}
+
+function get_contact() {
+    $.getJSON(url_contact, function (result) {
+        $.each(result, function (i, o) {
+            $("#contact_description").val(o.description);
+            $("#contact_address").val(o.address);
+            $("#contact_email").val(o.email_1);
+            $("#contact_phone_1").val(o.phone_1);
+            $("#contact_phone_2").val(o.phone_2);
+            $("#contact_maps").val(o.url_maps);
+            $("#contact_facebook").val(o.url_facebook);
+            $("#contact_instagram").val(o.url_instagram);
         });
     });
 }
@@ -369,6 +386,44 @@ $("#btn_delete_detail").on("click", function (e) {
                 tbody_plans();
                 $('#modal_delete_details').modal('hide');
                 alert("Se ha eliminado el registro");
+            } else {
+                alert("No se ha podido guardar el registro");
+            }
+        },
+        error: function () {
+            alert("Error interno");
+        }
+    });
+});
+
+$("#btn_contact").on("click", function (e) {
+    e.preventDefault();
+    var description = $("#contact_description").val();
+    var address = $("#contact_address").val();
+    var email = $("#contact_email").val();
+    var phone_1 = $("#contact_phone_1").val();
+    var phone_2 = $("#contact_phone_2").val();
+    var url_maps = $("#contact_maps").val();
+    var url_facebook = $("#contact_facebook").val();
+    var url_instagram = $("#contact_instagram").val();
+
+    $.ajax({
+        url: 'save_contact',
+        type: 'post',
+        dataType: 'json',
+        data: {
+            description,
+            address,
+            email,
+            phone_1,
+            phone_2,
+            url_maps,
+            url_facebook,
+            url_instagram
+        },
+        success: function (o) {
+            if (o.msg == "1") {
+                alert("Se ha actualizado el registro");
             } else {
                 alert("No se ha podido guardar el registro");
             }

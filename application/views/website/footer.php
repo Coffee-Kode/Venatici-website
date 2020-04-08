@@ -16,19 +16,14 @@
       <div class="col-lg-4">
         <h3 class="h3">Contacto</h3>
         <hr class="hr-light">
-        <p><i class="fas fa-map-marker-alt mr-3"></i> Talca, Región del Maule - Chile</p>
-        <p><i class="fab fa-whatsapp mr-3"></i> +56 9 7358 6517, +56 9 9911 1915</p>
-        <p><i class="fas fa-envelope mr-3"></i> <a href="mailto:venatici.asesorias@gmail.com">venatici.asesorias@gmail.com</a></p>
+        <p><i class="fas fa-map-marker-alt mr-3"></i><label id="footer_address"></label></p>
+        <p><i class="fab fa-whatsapp mr-3"></i><label id="footer_phone"></label></p>
+        <p id="footer_email"></p>
       </div>
       <div class="col-lg-4">
         <h3 class="h3">Síguenos</h3>
         <hr class="hr-light">
-        <a href="https://www.facebook.com/venatici/" target="_blank">
-          <i class="fab fa-facebook-f mr-3 fa-lg "></i>
-        </a>
-        <a href="https://www.instagram.com/venaticiasesorias/?hl=es-la" target="_blank">
-          <i class="fab fa-instagram mr-3 fa-lg "></i>
-        </a>
+        <div id="rrss"></div>
       </div>
     </div>
   </div>

@@ -3,6 +3,7 @@ $(document).ready(function () {
     get_programs();
     get_img();
     get_services();
+    get_contact();
 });
 
 function get_about() {
@@ -72,9 +73,28 @@ function get_services() {
     });
 }
 
+function get_contact() {
+    var url = 'get_contact';
+    $.getJSON(url, function (result) {
+        $.each(result, function (i, o) {
+            $("#mail_to").val(o.email_1);
+            document.getElementById("contact_description").innerHTML = o.description;
+            document.getElementById("contact_address").innerHTML = o.address;
+            document.getElementById("contact_email").innerHTML = o.email_1;
+            document.getElementById("contact_phone_1").innerHTML = o.phone_1;
+            document.getElementById("contact_phone_2").innerHTML = o.phone_2;
+            $("#map-container-google-11").append("<iframe src='" + o.url_maps + "' frameborder='0' style='border:0' allowfullscreen></iframe>");
+            document.getElementById("footer_address").innerHTML = o.address;
+            document.getElementById("footer_phone").innerHTML = o.phone_1 + (o.phone_2 != null || o.phone_2 != "" ? (", " + o.phone_2) : "");
+            $("#footer_email").append("<i class='fas fa-envelope mr-3'></i> <a href='mailto:" + o.email_1 + "'>" + o.email_1 + "</a>");
+            $("#rrss").append("<a href='" + o.url_facebook + "' target='_blank'><i class='fab fa-facebook-f mr-3 fa-lg'></i></a><a href='" + o.url_telegram + "' target='_blank'><i class='fab fa-instagram mr-3 fa-lg'></i></a>");
+        });
+    });
+}
 
 $("#btn_send").on("click", function (e) {
     e.preventDefault();
+    var mail_to = $("#mail_to").val();
     var name = $("#name").val();
     var email = $("#email").val();
     var title = $("#title").val();
@@ -84,7 +104,7 @@ $("#btn_send").on("click", function (e) {
         url: 'mail',
         type: 'post',
         dataType: 'json',
-        data: { name, email, title, message },
+        data: { name, email, title, message, mail_to },
         success: function (o) {
             console.log(o.msg);
         },

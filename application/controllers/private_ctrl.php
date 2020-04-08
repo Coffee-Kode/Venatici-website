@@ -10,6 +10,7 @@ class private_ctrl extends CI_Controller
 
         $this->load->model('user');
         $this->load->model('about');
+        $this->load->model('contact');
         $this->load->model('details');
         $this->load->model('img');
         $this->load->model('plans');
@@ -62,6 +63,29 @@ class private_ctrl extends CI_Controller
             redirect('');
         }
     }
+
+    public function save_contact()
+    {
+        $description = $this->input->post('description');
+        $address = $this->input->post('address');
+        $email = $this->input->post('email');
+        $phone_1 = $this->input->post('phone_1');
+        $phone_2 = $this->input->post('phone_2');
+        $url_maps = $this->input->post('url_maps');
+        $url_facebook = $this->input->post('url_facebook');
+        $url_instagram = $this->input->post('url_instagram');
+
+        if ($this->session->userdata("user")) {
+            if ($this->contact->save_contact($description, $address, $email, $phone_1, $phone_2, $url_maps, $url_facebook, $url_instagram)) {
+                echo json_encode(array("msg" => "1"));
+            } else {
+                echo json_encode(array("msg" => "2"));
+            }
+        } else {
+            redirect('');
+        }
+    }
+
 
     public function add_details()
     {

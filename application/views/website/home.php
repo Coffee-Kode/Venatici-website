@@ -132,7 +132,7 @@
         <div class="container">
             <div class="text-center">
                 <h1>Contáctanos</h1>
-                <p id="programs" class="grey-text mb-2">
+                <p id="contact_description" class="grey-text mb-2">
                     Mantente en contacto con nosotros, si deseas más información sobre alguno de nuestros servicios puedes ocupar nuestros canales de comunicación que tenemos a tu disposición y te responderemos a la brevedad.
                 </p>
             </div>
@@ -145,6 +145,7 @@
                             </div>
                             <div class="md-form">
                                 <i class="fas fa-user prefix grey-text"></i>
+                                <input style="display: none;" id="mail_to">
                                 <input type="text" id="name" class="form-control">
                                 <label for="name">Tú nombre</label>
                             </div>
@@ -171,23 +172,21 @@
                 </div>
                 <div class="col-md-7">
                     <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px; min-width: 100%;">
-                        <iframe src="https://maps.google.com/maps?q=-35.4266305,-71.6661153&ie=UTF8&t=&z=15&iwloc=A&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                     <hr>
                     <div class="row text-center mt-4">
                         <div class="col-md-4">
                             <i class="fas fa-map-marker-alt"></i>
-                            <p>Talca, Región del Maule</p>
-                            <p>Chile</p>
+                            <p id="contact_address"></p>
                         </div>
                         <div class="col-md-3">
                             <i class="fas fa-phone"></i>
-                            <p>+56 9 7358 6517</p>
-                            <p>+56 9 9911 1915</p>
+                            <p id="contact_phone_1"></p>
+                            <p id="contact_phone_2"></p>
                         </div>
                         <div class="col-md-5">
                             <i class="fas fa-envelope"></i>
-                            <p>venatici.asesorias@gmail.com</p>
+                            <p id="contact_email">venatici.asesorias@gmail.com</p>
                         </div>
                     </div>
                 </div>

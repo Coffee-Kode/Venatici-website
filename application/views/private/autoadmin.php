@@ -294,8 +294,43 @@
                         <div class="card-body">
                             <div class="list-group">
                                 <div class="list-group-item">
-                                </div>
-                                <div class="list-group-item">
+                                    <div class="form-row">
+                                        <div class="form-group col-md-12">
+                                            <label for="contact_description">Descripción</label>
+                                            <textarea class="form-control" id="contact_description" rows="3"></textarea>
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="contact_address">Dirección</label>
+                                            <input class="form-control" type="text" id="contact_address">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="contact_email">Correo contacto</label>
+                                            <input class="form-control" type="text" id="contact_email">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="contact_maps">URL Google Maps</label>
+                                            <input class="form-control" type="text" id="contact_maps">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="contact_phone_1">Numero 1</label>
+                                            <input class="form-control" type="text" id="contact_phone_1">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="contact_phone_2">Numero 2</label>
+                                            <input class="form-control" type="text" id="contact_phone_2">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="contact_facebook">Facebook</label>
+                                            <input class="form-control" type="text" id="contact_facebook">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="contact_instagram">Instagram</label>
+                                            <input class="form-control" type="text" id="contact_instagram">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <button type="button" class="btn btn-success float-right mt-4" id="btn_contact">Guardar</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

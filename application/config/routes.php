@@ -17,7 +17,7 @@ $route['mail'] = 'website_ctrl/send_mail';
 
 // get routes
 $route['get_about'] = 'website_ctrl/get_about';
-$route['get_details'] = 'website_ctrl/get_details';
+$route['get_contact'] = 'website_ctrl/get_contact';
 $route['get_details'] = 'website_ctrl/get_details';
 $route['get_details_plan_1'] = 'website_ctrl/get_details_plan_1';
 $route['get_details_plan_2'] = 'website_ctrl/get_details_plan_2';
@@ -52,6 +52,7 @@ $route['logout'] = 'private_ctrl/logout';
 
 // save routes
 $route['save_about'] = 'private_ctrl/save_about';
+$route['save_contact'] = 'private_ctrl/save_contact';
 $route['save_details'] = 'private_ctrl/save_details';
 $route['save_plans'] = 'private_ctrl/save_plans';
 $route['save_programs'] = 'private_ctrl/save_programs';

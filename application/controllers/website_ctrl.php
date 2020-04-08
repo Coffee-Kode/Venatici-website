@@ -9,12 +9,13 @@ class website_ctrl extends CI_Controller
 		parent::__construct();
 
 		$this->load->model('user');
-        $this->load->model('about');
-        $this->load->model('details');
-        $this->load->model('img');
-        $this->load->model('plans');
-        $this->load->model('programs');
-        $this->load->model('services');
+		$this->load->model('about');
+		$this->load->model('contact');
+		$this->load->model('details');
+		$this->load->model('img');
+		$this->load->model('plans');
+		$this->load->model('programs');
+		$this->load->model('services');
 	}
 
 	public function index()
@@ -54,6 +55,7 @@ class website_ctrl extends CI_Controller
 
 	public function send_mail()
 	{
+		$mail_to = $this->input->post('mail_to');
 		$name = $this->input->post('name');
 		$email = $this->input->post('email');
 		$title = $this->input->post('title');
@@ -63,11 +65,9 @@ class website_ctrl extends CI_Controller
 		$configuraciones['mailtype'] = 'html';
 		$this->email->initialize($configuraciones);
 		$this->email->from($email, $name);
-		$this->email->to('lnmendez94@gmail.com');
-		$this->email->cc('rodrimanriquez10@gmail.com');
-
+		$this->email->to($mail_to);
 		$this->email->subject($title);
-		$this->email->message('<p>Mensaje: ' . $message . '</p>');
+		$this->email->message($message);
 
 		if ($this->email->send()) {
 			echo json_encode(array("msg" => "Correo enviado"));
@@ -80,6 +80,11 @@ class website_ctrl extends CI_Controller
 	public function get_about()
 	{
 		echo json_encode($this->about->get_about());
+	}
+
+	public function get_contact()
+	{
+		echo json_encode($this->contact->get_contact());
 	}
 
 	public function get_details()
