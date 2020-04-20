@@ -49,6 +49,7 @@ $route['admin'] = 'private_ctrl';
 // system routes
 $route['signin'] = 'private_ctrl/signin';
 $route['logout'] = 'private_ctrl/logout';
+$route['change_password'] = 'private_ctrl/change_password';
 
 // save routes
 $route['save_about'] = 'private_ctrl/save_about';

@@ -434,6 +434,38 @@ $("#btn_contact").on("click", function (e) {
     });
 });
 
+$("#btn_confirm_change_password").on("click", function (e) {
+    e.preventDefault();
+    var old_password = $("#old_password").val();
+    var new_password = $("#new_password").val();
+    var repeat_password = $("#repeat_password").val();
+
+    if (new_password != repeat_password) {
+        alert("Las contraseñas no coinciden");
+    } else {
+        $.ajax({
+            url: 'change_password',
+            type: 'post',
+            dataType: 'json',
+            data: { old_password, new_password },
+            success: function (o) {
+                if (o.msg == "1") {
+                    $('#modal_change_password').modal('hide');
+                    alert("Contraseña cambiada");
+                } else if (o.msg == "3") {
+                    alert("La contrase actual es incorrecta");
+                } else {
+                    alert("No se ha podido cambiar la contraseña");
+                }
+            },
+            error: function () {
+                alert("Error interno");
+            }
+        });
+    }
+
+});
+
 $("body").on("click", "#btn_modal_edit_plans", function (e) {
     e.preventDefault();
     var id_plans = $(this).parents("tr").find("td").html();

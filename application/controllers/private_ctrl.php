@@ -47,6 +47,37 @@ class private_ctrl extends CI_Controller
         redirect('');
     }
 
+    public function change_password()
+    {
+        if ($this->session->userdata("user")) {
+            $num = 0;
+            foreach ($this->session->userdata("user")[0] as $key => $object) {
+                $num++;
+                if ($num == 1) {
+                    $id_user = $object;
+                } else if ($num == 3) {
+                    $current_password = $object;
+                }
+            }
+            $old_password = $this->input->post('old_password');
+            $new_password = $this->input->post('new_password');
+
+            if ($current_password != md5($old_password)) {
+                echo json_encode(array("msg" => "3"));
+            } else {
+                $arrayUser = $this->user->change_password($id_user, md5($new_password));
+                if (count($arrayUser) > 0) {
+                    $this->session->set_userdata("user", $arrayUser);
+                    echo json_encode(array("msg" => "1"));
+                } else {
+                    echo json_encode(array("msg" => "0"));
+                }
+            }
+        } else {
+            redirect('');
+        }
+    }
+
     public function save_about()
     {
         $about_us = $this->input->post('about_us');

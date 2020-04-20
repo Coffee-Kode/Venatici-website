@@ -339,6 +339,11 @@
                 <!-- END CARD CONTACTO -->
             </div>
             <!-- END BODY -->
+            <!-- START BTN CHANCHE PASSWORD -->
+            <div class="float-right mt-3">
+                <button type="button" class="btn btn-link" data-target="#modal_change_password" data-toggle="modal" id="btn_change_password">Cambiar contraseña</button>
+            </div>
+            <!-- END BTN CHANCHE PASSWORD -->
         </div>
     </div>
     <!-- END FORM AUTOADMIN -->
@@ -509,6 +514,39 @@
             </div>
         </div>
         <!-- END MODAL CONFIRM DELETE DETAILS PLANS -->
+
+        <!-- START MODAL CHANGE PASSWORD -->
+        <div class="modal fade" id="modal_change_password" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modal_change_password_label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal_change_password_label">Cambiar contraseña</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="old_password">Contraseña actual</label>
+                            <input type="password" class="form-control" id="old_password">
+                        </div>
+                        <div class="form-group">
+                            <label for="new_password">Nueva contraseña</label>
+                            <input type="password" class="form-control" id="new_password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeat_password">Repetir contraseña</label>
+                            <input type="password" class="form-control" id="repeat_password">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-danger" id="btn_confirm_change_password">Confirmar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MODAL CHANGE PASSWORD -->
     </div>
     <!-- END MODALS SECTIONS -->
 
