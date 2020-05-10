@@ -13,6 +13,8 @@ $route['home'] = 'website_ctrl/home';
 $route['marketing'] = 'website_ctrl/marketing';
 $route['emprende'] = 'website_ctrl/emprende';
 $route['web'] = 'website_ctrl/develop_web';
+$route['programs'] = 'website_ctrl/programs';
+
 $route['mail'] = 'website_ctrl/send_mail';
 
 // get routes
@@ -61,6 +63,7 @@ $route['save_services'] = 'private_ctrl/save_services';
 
 // add routes
 $route['save_img'] = 'private_ctrl/save_img';
+$route['edit_img'] = 'private_ctrl/edit_img';
 $route['add_details'] = 'private_ctrl/add_details';
 
 // delete routes

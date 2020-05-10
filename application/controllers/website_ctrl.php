@@ -20,37 +20,32 @@ class website_ctrl extends CI_Controller
 
 	public function index()
 	{
-		$this->load->view('website/header');
 		$this->load->view('website/home');
-		$this->load->view('website/footer');
 	}
 
 	public function home()
 	{
-		$this->load->view('website/header');
 		$this->load->view('website/home');
-		$this->load->view('website/footer');
 	}
 
 	public function marketing()
 	{
-		$this->load->view('website/header');
-		$this->load->view('website/marketing');
-		$this->load->view('website/footer');
+		$this->load->view('website/service-marketing');
 	}
 
 	public function emprende()
 	{
-		$this->load->view('website/header');
-		$this->load->view('website/emprende');
-		$this->load->view('website/footer');
+		$this->load->view('website/service-emprende');
 	}
 
 	public function develop_web()
 	{
-		$this->load->view('website/header');
-		$this->load->view('website/develop_web');
-		$this->load->view('website/footer');
+		$this->load->view('website/service-website');
+	}
+
+	public function programs()
+	{
+		$this->load->view('website/description-programs');
 	}
 
 	public function send_mail()

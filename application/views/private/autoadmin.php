@@ -106,33 +106,21 @@
                                     <div class="form-group">
                                         <button type="button" id="btn_programs" class="btn btn-success float-right mb-4">Guardar
                                         </button>
+                                        </div0>
                                     </div>
                                 </div>
                                 <div class="list-group-item">
-                                    <h5 class="mb-5">Imagenes del caroussel:</h5>
-                                    <form id="form_img">
-                                        <div class="form-row">
-                                            <div class="col-md-5">
-                                                <input type="file" class="form-control-file" name="img_carousel" id="img_carousel" aria-describedby="img_help" accept="image/png, image/jpeg">
-                                                <small id="img_help" class="form-text text-muted">Formato admitido:
-                                                    JPEG/PNG de 1200x400 pixeles y 2MB Max.</small>
-                                            </div>
-                                            <div class="col-md-7">
-                                                <button type="button" id="btn_add_img" class="btn btn-warning">Agregar</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                    <div class="form-group">
-                                        <table class="table table-striped table-sm mt-4">
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col">Archivo</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody id="tbody_img">
-                                            </tbody>
-                                        </table>
-                                    </div>
+                                    <h5>Gestión de Programas y Convocatorias:</h5>
+                                    <button type="button" class="btn btn-warning float-right mb-4" data-target="#modal_new_img" data-toggle="modal">Nuevo</button>
+                                    <table class="table table-striped table-sm mt-4">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Programas y Convocatorias</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="tbody_img">
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -473,16 +461,71 @@
             </div>
         </div>
         <!-- END MODAL DELETE DETAILS PLANS -->
+        <!-- START MODAL NEW IMAGES -->
+        <div class="modal fade" id="modal_new_img" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modal_new_img_label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Registrar Programas y Convocatorias</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body center">
+                        <form id="form_img">
+                            <div class="form-group">
+                                <label for="img_title">Título</label>
+                                <input type="text" class="form-control" id="img_title" name="img_title">
+                            </div>
+                            <div class="form-group">
+                                <label for="img_description">Descripción</label>
+                                <textarea class="form-control" id="img_description" rows="6" name="img_description"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-5">
+                                    <input type="file" class="form-control-file" name="img_carousel" id="img_carousel" aria-describedby="img_help" accept="image/png, image/jpeg">
+                                    <small id="img_help" class="form-text text-muted">Formato admitido:
+                                        JPEG/PNG de 1200x400 pixeles y 2MB Max.</small>
+                                </div>
+                                <div class="col-md-7">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
+                        <button type="button" id="btn_add_img" class="btn btn-success">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MODAL NEW IMAGES -->
 
         <!-- START MODAL IMAGES -->
         <div class="modal fade" id="modal_view_img" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modal_view_img_label" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
                 <div class="modal-content">
-                    <div id="modal_img" class="modal-body mb-0 p-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Programas y Convocatorias</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body center">
+                        <div class="form-group">
+                            <label for="img_title_view">Título</label>
+                            <input type="text" class="form-control" id="img_title_view" name="img_title_view">
+                        </div>
+                        <div id="modal_img" class="modal-body mt-5 mb-3 p-0">
+                        </div>
+                        <div class="form-group">
+                            <label for="img_description_view">Descripción</label>
+                            <textarea class="form-control" id="img_description_view" rows="6" name="img_description_view"></textarea>
+                        </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-danger" data-target="#modal_confirm_delete_details" data-toggle="modal" id="btn_confirm_delete_img">Eliminar</button>
+                        <button type="button" class="btn btn-danger mr-auto" data-target=" #modal_confirm_delete_details" data-toggle="modal" id="btn_confirm_delete_img">Eliminar</button>
+                        <button type="button" class="btn btn-info" id="btn_edit_img">Actualizar</button>
                     </div>
                 </div>
             </div>

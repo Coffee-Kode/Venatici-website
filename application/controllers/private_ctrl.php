@@ -172,6 +172,12 @@ class private_ctrl extends CI_Controller
 
         if ($this->session->userdata("user")) {
 
+            $img_title = $this->input->post("img_title");
+            $img_description = $this->input->post("img_description");
+
+            $find = array("", " ", "_", "ñ", "#", "%", "&", "*", "{", "}", "\'", ":", "<", ">", "?", "/", "+", "á", "é", "í", "ó", "ú");
+            $img_url = (str_replace($find, "-", $img_title));
+
             $config['upload_path']   = './assets/images';
             $config['allowed_types']   = 'png|jpg';
             $config['remove_spaces']   = TRUE;
@@ -184,7 +190,7 @@ class private_ctrl extends CI_Controller
             if ($this->upload->do_upload('img_carousel')) {
                 $data = array("upload_data" => $this->upload->data());
                 $path = $data['upload_data']['file_name'];
-                if ($this->img->save_img($path)) {
+                if ($this->img->save_img($path, $img_title, $img_description, $img_url)) {
                     echo json_encode(array("msg" => "1"));
                 } else {
                     echo json_encode(array("msg" => "2"));
@@ -204,6 +210,23 @@ class private_ctrl extends CI_Controller
                 } else {
                     echo  $this->upload->display_errors();
                 }
+            }
+        } else {
+            redirect('');
+        }
+    }
+
+    public function edit_img()
+    {
+        if ($this->session->userdata("user")) {
+            $id_img = $this->input->post('id_img');
+            $title = $this->input->post('title');
+            $description = $this->input->post('description');
+
+            if ($this->img->edit_img($id_img, $title, $description)) {
+                echo json_encode(array("msg" => "1"));
+            } else {
+                echo json_encode(array("msg" => "2"));
             }
         } else {
             redirect('');

@@ -149,7 +149,9 @@ function tbody_imgs() {
             var fil = "<tr>";
             fil += "<td style='display: none;'>" + o.path + "</td>";
             fil += "<td style='display: none;'><p>" + o.id_img + "</p></td>";
-            fil += "<td><a href='#' id='btn_modal_view_img' data-target='#modal_view_img' data-toggle='modal'>" + o.path + "</a></td>";
+            fil += "<td style='display: none;'><small>" + o.title + "</small></td>";
+            fil += "<td style='display: none;'><h6>" + o.description + "</h6></td>";
+            fil += "<td><a href='#' id='btn_modal_view_img' data-target='#modal_view_img' data-toggle='modal'>" + o.title + "</a></td>";
             fil += "</tr>";
             $("#tbody_img").append(fil);
         });
@@ -220,6 +222,7 @@ $("#btn_add_img").on("click", function (e) {
             if (o.msg == "1") {
                 tbody_imgs();
                 $("#img_carousel").val("");
+                $('#modal_new_img').modal('hide');
                 alert("Se ha guardado el registro")
             } else if (o.msg == "3") {
                 alert("La imagen no cumple con el formato admitido")
@@ -453,7 +456,7 @@ $("#btn_confirm_change_password").on("click", function (e) {
                     $('#modal_change_password').modal('hide');
                     alert("Contraseña cambiada");
                 } else if (o.msg == "3") {
-                    alert("La contrase actual es incorrecta");
+                    alert("La contraseña actual es incorrecta");
                 } else {
                     alert("No se ha podido cambiar la contraseña");
                 }
@@ -516,8 +519,39 @@ $("body").on("click", "#btn_modal_view_img", function (e) {
     e.preventDefault();
     var img_path = $(this).parents("tr").find("td").html();
     var id_img = $(this).parents("tr").find("p").html();
+    var title = $(this).parents("tr").find("small").html();
+    var description = $(this).parents("tr").find("h6").html();
+    $("#img_title_view").val(title);
+    $("#img_description_view").val(description);
     $("#modal_img").empty();
     $("#modal_img").append("<div style='display: none;'><input type='text' id='id_img_modal' value='" + id_img + "'/><input type='text' id='path_img_modal' value='" + img_path + "'/></div><img src='assets/images/" + img_path + "' alt='' style='width:100%'>");
+});
+
+$("body").on("click", "#btn_edit_img", function (e) {
+    e.preventDefault();
+    var id_img = $("#id_img_modal").val();
+    var title = $("#img_title_view").val();
+    var description = $("#img_description_view").val();
+
+    $.ajax({
+        url: 'edit_img',
+        type: 'post',
+        dataType: 'json',
+        data: { id_img, title, description },
+        success: function (o) {
+            if (o.msg == "1") {
+                tbody_imgs();
+                $('#modal_view_img').modal('hide');
+                alert("Registro actualizado");
+            } else {
+                alert("No se ha podrido actualizar");
+            }
+        },
+        error: function () {
+            alert("Error interno");
+        }
+    });
+
 });
 
 function update_service(id_service, title, description) {
